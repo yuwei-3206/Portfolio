@@ -13,14 +13,9 @@ header {
   gap: 1.1rem;
 }
 
-.title {
-  color: var(--color-primary);
-  font-weight: 400;
-}
-
 .names {
   font-size: 6vw;
-  letter-spacing: 0.5rem;
+  letter-spacing: 0.3rem;
   -webkit-text-stroke-color: var(--color-primary);
 }
 

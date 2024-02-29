@@ -21,16 +21,16 @@ const ProjectList = [
     {
       id: 2,
       image: work2,
-      name: "UNICEF - Database Normalization",
+      name: "Database Normalization",
       link: "https://anilkumar3494.github.io/fun-aaps/",
       tool: (
         <div>
-          PL/SQL<br />
+          SQL<br />
           Environment: Oracle SQL Developer
         </div>),
       description: (
         <div>
-          This project utilizes SQL DDL, PL/SQL to normalize raw data that has almost 2 millions data, techniques includes Insert, Update, Indexes, Procedures, Views and Triggers.<br/><br/>
+          Working with a raw, unstructured dataset comprising 2 million records, using SQL DDL, PL/SQL to normalize and structure the data effectively. Techniques includes Insert, Update, Indexes, Procedures, Views and Triggers.<br/><br/>
           1. Improve database efficiency, reduce redundancy, and enhance data integrity.<br /> 
           2. Organize data into well-structured tables with minimal duplication and dependencies, following specific rules and principles. <br />
         </div>)

@@ -22,7 +22,7 @@ const Header = () => {
     <section id="home" className="header-section">
       <header>
         <div className="container header_container">
-          <h3 className="title">Hello, I am</h3>
+          <h2 className="header_hello">Hello, I am</h2>
           <h5 className="names">{adj.names[currentIndex]}</h5>
           <h4>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ad et ratione asperiores, dignissimos

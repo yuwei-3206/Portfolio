@@ -19,7 +19,7 @@ const Projects = () => {
     <section id='projects' className="projects_container">
       <h5>PROJECTS</h5>
       <h2>My Works</h2>
-      <div className="project">{ProjectList.map((project) => createEntry(project, openPop))}</div>
+      <div className="project_list">{ProjectList.map((project) => createEntry(project, openPop))}</div>
 
       {selectedProject && (
         <ProjectPop
