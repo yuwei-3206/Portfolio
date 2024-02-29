@@ -1,0 +1,97 @@
+.projects_container {
+  margin-top: 30%;
+}
+
+.project {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 4rem auto;
+    max-width: 70%;
+  }
+
+  /** Poject Builder **/
+
+  .project > .container {
+    position: relative;
+    max-width: 30rem;
+    height: 35rem;
+    margin-bottom: 3rem;
+    gap: 2rem;
+    padding: 2rem;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05), 3px 3px 15px rgba(0, 0, 0, 0.1);
+    transition: all 100ms ease-in-out;
+  }
+
+  .item {
+    margin-bottom: 1rem;
+  }
+
+  .title {
+    position: absolute;
+    bottom: 11rem;
+    font-size: 150%;
+    font-weight: 600;
+  }
+
+  .image {
+    margin: 0 auto 20px;
+    display: block;
+  }
+
+  .tool {
+    position: absolute;
+    bottom: 7rem;
+  }
+
+  button {
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 3rem;
+    color: var(--color-white);
+  }
+
+  /**  Pop Up Modal  **/
+
+.pop_bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+}
+
+.pop_content {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--color-white);
+  padding: 5rem;
+  height: 40rem;
+  overflow-y: auto;
+}
+
+.pop_title {
+
+}
+
+.pop_description {
+  margin-top: 2rem;
+}
+
+.pop_img {
+  margin-top: 3rem;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}

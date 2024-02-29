@@ -1,0 +1,107 @@
+header {
+  height: 100vh;
+  padding-top: 10rem;
+  overflow: hidden;
+
+  position: relative;
+}
+.header_container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.1rem;
+}
+
+.title {
+  color: var(--color-primary);
+  font-weight: 400;
+}
+
+.names {
+  font-size: 6vw;
+  letter-spacing: 0.5rem;
+  -webkit-text-stroke-color: var(--color-primary);
+}
+
+/* Images */
+.our-imgs {
+  aspect-ratio: 16/9;
+  border-top-right-radius: 2rem;
+  border-top-left-radius: 2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+  width: 40%;
+}
+
+/* Description */
+h4 {
+  width: 30rem;
+  padding-bottom: 1.5rem;
+}
+
+/* CALL TO ACTION STYLING */
+.call_to_action {
+  display: flex;
+  gap: 1.2rem;
+}
+
+/* SOCIAL LINKS  */
+
+.social_links {
+  top: 3rem;
+  right: 4rem;
+  gap: 1.5rem;
+
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+
+.social_links a {
+  font-size: 1.5rem;
+}
+
+/* The Scroll Down a tag */
+
+.scroll_down {
+  position: absolute;
+  right: -2.8rem;
+  bottom: 5.5rem;
+
+  transform: rotate(90deg);
+
+  display: flex;
+  align-items: center;
+  gap: 1.1rem;
+
+  font-size: 1rem;
+}
+
+.scroll_down::before {
+  content: "";
+  width: 1.5px;
+  height: 1.5rem;
+  background: var(--color-primary);
+}
+
+/* For Tablets - Medium Devices */
+@media screen and (max-width: 1024px) {
+  header {
+    height: 65vh;
+  }
+}
+
+/* For Mobile and small screens - Small Devices */
+@media screen and (max-width: 600px) {
+  header {
+    height: 95vh;
+  }
+  .social_links,
+  .scroll_down {
+    display: none;
+  }
+}

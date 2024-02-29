@@ -1,0 +1,26 @@
+.about_container {
+    display: flex;
+    align-items: center;
+}
+
+.background-image {
+    max-width: 50%;
+}
+
+.about_me {
+    flex-grow: 1;
+    margin-left: 2rem;
+}
+
+.aboutTitle::after{
+    display: block;
+    content: "";
+    
+    width: 1.5px;
+    height: 1.5rem;
+    background: var(--color-primary);
+}
+
+.aboutDescription {
+    margin-top: 1.5rem;
+}
