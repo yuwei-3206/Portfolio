@@ -14,8 +14,8 @@
 
   .project_list > .builder_container {
     position: relative;
-    max-width: 30rem;
-    height: 35rem;
+    max-width: 20rem;
+    height: 30rem;
     margin-bottom: 3rem;
     gap: 2rem;
     padding: 2rem;
@@ -37,6 +37,7 @@
 
   .project_tool {
     position: absolute;
+
     bottom: 7rem;
   }
 
@@ -85,10 +86,11 @@
 .pop_img {
   max-width: 50%;
   display: block;
-  margin-top: calc((50% - 50vh) / 2);
+  margin-top: 5vh
 }
 
 .pop_text {
+  position: relative;
   padding-left: 2rem;
 }
 
@@ -101,8 +103,9 @@
 }
 
 .pop_link {
-  background-color: var(--color-light);
   color: var(--color-dark);
+  border-bottom: 1.5px solid var(--color-primary);
+  padding-bottom: 0.5px;
 }
 
 .pop_close {
@@ -111,4 +114,37 @@
   right: 1.5rem;
   cursor: pointer;
   font-size: 1.5rem;
+}
+
+.pop_image_navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.pop_prev_btn,
+.pop_next_btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  color: #000;
+  margin: 0 10px;
+}
+
+.pop_circles {
+  display: flex;
+}
+
+.pop_circles span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin: 0 5px;
+}
+
+.pop_active_circle {
+  background-color: #000;
 }

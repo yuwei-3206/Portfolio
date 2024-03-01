@@ -25,9 +25,7 @@ const Header = () => {
           <h2 className="header_hello">Hello, I am</h2>
           <h5 className="names">{adj.names[currentIndex]}</h5>
           <h4>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ad et ratione asperiores, dignissimos
-            necessitatibus dolores atque. Id eligendi a, sapiente delectus, molestias, facilis autem vero sit ducimus
-            harum rem.
+             I'm excited to connect with you and share more about my journey, experiences, and aspirations! <br />Let's explore the endless possibilities together!
           </h4>
           <Calltoaction />
           <a href="#contact" className="scroll_down">

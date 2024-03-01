@@ -1,14 +1,17 @@
-import work1 from '../../assets/web.jpg';
-import work2 from '../../assets/data.jpg';
-import work3 from '../../assets/freeman.jpg';
-import work4 from '../../assets/mint.jpg';
-import work5 from '../../assets/work-1.jpg';
-import work6 from '../../assets/work-1.jpg';
+import web from '../../assets/web.jpg';
+import data from '../../assets/data.png';
+import c from '../../assets/C.png'
+import freeman from '../../assets/freeman.jpg';
+import mint from '../../assets/mint.jpg';
+import graphic1 from '../../assets/graphic1.png';
+import graphic2 from '../../assets/graphic2.png';
+import graphic3 from '../../assets/graphic3.png';
+import graphic4 from '../../assets/graphic4.png';
 
 const ProjectList = [
     {
       id: 1,
-      image: work1,
+      images: [web],
       name: "Portfolio Website",
       link: "https://github.com/yuwei-3206/Portfolio",
       tool: (
@@ -24,13 +27,13 @@ const ProjectList = [
     },
     {
       id: 2,
-      image: work2,
+      images: [data],
       name: "Database Normalization",
       link: "https://github.com/yuwei-3206/UNICEF_Database-Normalization",
       tool: (
         <div>
           SQL<br />
-          Environment: Oracle SQL Developer
+          Oracle SQL Developer
         </div>),
       description: (
         <div>
@@ -42,16 +45,16 @@ const ProjectList = [
     },
     {
       id: 3,
-      image: work3,
-      name: "Freeman Beauty - UX Research/Design",
-      link: "https://replit.com",
+      images: [c],
+      name: "C Programs",
+      link: "https://github.com/yuwei-3206/C-Programs",
       tool:
-        "Figma, Prototyping, Visual Design, User Research",
+        "C/C++",
       description: ""
     },
     {
       id: 4,
-      image: work4,
+      images: [mint],
       name: "Mint Mobile - UX Research",
       link: "https://codesandbox.io",
       tool:
@@ -60,20 +63,23 @@ const ProjectList = [
     },
     {
       id: 5,
-      image: work5,
-      name: "Graphic Design",
+      images: [freeman],
+      name: "Freeman Beauty - UX Research/Design",
       tool:
-        "Adobe Illustrator, Photoshop, InDesign",
+        "Figma, Prototyping User Research, Visual Design, ",
       description: ""
     },
     {
       id: 6,
-      image: work6,
+      images: [graphic1, graphic2, graphic3, graphic4],
       name: "Graphic Design",
       link: "https://codesandbox.io",
       tool:
-        "",
-      description: ""
+        "Adobe Illustrator, Photoshop, InDesign",
+      description: (
+        <div>
+          Designed various materials like web pages, banners, flyers, logos, signs, annual reports, ads, and product packagings. <br />
+        </div>),
     }
   ];
   

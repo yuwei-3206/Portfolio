@@ -35,7 +35,7 @@ function createEntry(project, openPop) {
   return (
     <ProjectBuilder
       key={project.id}
-      image={project.image}
+      images={project.images}
       name={project.name}
       link={project.link}
       tool={project.tool}
