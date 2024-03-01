@@ -65,24 +65,44 @@
   position: fixed;
   top: 50%;
   left: 50%;
+
   transform: translate(-50%, -50%);
   background-color: var(--color-white);
-  padding: 5rem;
-  height: 40rem;
+
+  width: 78%;
+  height: 35rem;
+
+  padding: 3rem;
   overflow-y: scroll;
   z-index: 1001;
 }
 
-.pop_title {
-
-}
-
-.pop_description {
-  margin-top: 2rem;
+.pop_inner_content {
+  display: flex;
+  align-items: center;
 }
 
 .pop_img {
-  margin-top: 3rem;
+  max-width: 50%;
+  display: block;
+  margin-top: calc((50% - 50vh) / 2);
+}
+
+.pop_text {
+  padding-left: 2rem;
+}
+
+.pop_title {
+  
+}
+
+.pop_description {
+  margin: 2rem 0;
+}
+
+.pop_link {
+  background-color: var(--color-light);
+  color: var(--color-dark);
 }
 
 .pop_close {

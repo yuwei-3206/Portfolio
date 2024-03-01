@@ -10,19 +10,23 @@ const ProjectList = [
       id: 1,
       image: work1,
       name: "Portfolio Website",
-      link: "https://www.cs.drexel.edu/~dc3435/hawthorne/index.html",
+      link: "https://github.com/yuwei-3206/Portfolio",
       tool: (
         <div>
           HTML, CSS, JavaScript<br />
           Framework: React
         </div>),
-      description: ""
+      description: (
+        <div>
+          Using React as the foundation of development, I've carefully crafted each component to guarantee smooth navigation and captivating content display.<br /><br />
+          By utilizing React's component-based structure, I've built reusable UI elements that offer adaptability and scalability.
+        </div>)
     },
     {
       id: 2,
       image: work2,
       name: "Database Normalization",
-      link: "https://anilkumar3494.github.io/fun-aaps/",
+      link: "https://github.com/yuwei-3206/UNICEF_Database-Normalization",
       tool: (
         <div>
           SQL<br />
@@ -31,9 +35,10 @@ const ProjectList = [
       description: (
         <div>
           Working with a raw, unstructured dataset comprising 2 million records, using SQL DDL, PL/SQL to normalize and structure the data effectively. Techniques includes Insert, Update, Indexes, Procedures, Views and Triggers.<br/><br/>
-          1. Improve database efficiency, reduce redundancy, and enhance data integrity.<br /> 
+          1. Improve database efficiency, reduce redundancy, and enhance data integrity.<br /> <br /> 
           2. Organize data into well-structured tables with minimal duplication and dependencies, following specific rules and principles. <br />
-        </div>)
+        </div>),
+      
     },
     {
       id: 3,
@@ -57,7 +62,6 @@ const ProjectList = [
       id: 5,
       image: work5,
       name: "Graphic Design",
-      link: "https://codesandbox.io",
       tool:
         "Adobe Illustrator, Photoshop, InDesign",
       description: ""

@@ -18,7 +18,7 @@ const Nav = () => {
           }
         });
       },
-      { threshold: 0.5 }
+      { threshold: 0.7 }
     );
 
     const sections = document.querySelectorAll("section[id]");
