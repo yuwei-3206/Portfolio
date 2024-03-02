@@ -42,14 +42,17 @@ const ProjectPop = ({ project, closePop }) => {
               <IoIosArrowBack />
             </a>
 
+            <div className="pop_circles">
               {project.images.map((_, index) => (
                 <span
                   key={index}
                   className={
                     currentImageIndex === index ? "pop_active_circle" : ""
                   }
+                  onClick={() => setCurrentImageIndex(index)}
                 ></span>
               ))}
+            </div>
             
             <a className="pop_next_btn" onClick={handleNextImage}>
               <IoIosArrowForward />
