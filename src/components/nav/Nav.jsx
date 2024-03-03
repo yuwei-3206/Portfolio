@@ -6,7 +6,7 @@ import { FaGear, FaPhone } from "react-icons/fa6";
 import { FaFileCode } from "react-icons/fa";
 
 const Nav = () => {
-  const [activeNav, setActiveNav] = useState("#");
+  const [activeNav, setActiveNav] = useState("#home");
 
   useEffect(() => {
     const handleScroll = () => {
@@ -36,7 +36,7 @@ const Nav = () => {
       <a href="#about" className={activeNav === "#about" ? "active" : ""}>
         <IoPersonSharp />
       </a>
-      <a href="#experience" className={activeNav === "#experience" ? "active" : ""}>
+      <a href="#skills" className={activeNav === "#skills" ? "active" : ""}>
         <FaGear />
       </a>
       <a href="#projects" className={activeNav === "#projects" ? "active" : ""}>

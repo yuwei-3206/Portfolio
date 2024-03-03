@@ -1,4 +1,4 @@
-.experience {
+.skill {
   text-align: center;
   position: relative;
   padding-top: 3vh;
@@ -6,68 +6,68 @@
   background-color: transparent;
 }
 
-.experience_container {
+.skill_container {
   display: grid;
   grid-template-columns: 20rem 20rem 20rem;
   gap: 2rem;
   justify-content: center;
 }
 
-.experience_container > div {
+.skill_container > div {
   background: rgba(240, 240, 240, 0.486);
   padding: 2.4rem 2.5rem;
   border: 1px solid transparent;
   transition: var(--transition);
 }
 
-.experience_container > div h3 {
+.skill_container > div h3 {
   margin-bottom: 1.5rem;
   color: var(--color-primary);
   font-weight: 500;
 }
-.experience_container h3 {
+.skill_container h3 {
   text-align: left;
 }
 
-.experience_content {
+.skill_content {
   text-align: left;
   display: grid;
 }
 
-.experience_details {
+.skill_details {
   display: flex;
   gap: 0.6rem;
 }
 
-.experience_details-icon {
+.skill_details-icon {
   margin-top: 6px;
   color: var(--color-primary);
 }
 
 /* ------ MEDIA QUERIES (MEDIUM DEVICES) ------ */
 @media screen and (max-width: 1024px) {
-  .experience_container {
+  .skill_container {
     grid-template-columns: 1fr;
   }
 
-  .experience_container > div {
+  .skill_container > div {
     width: 80%;
     padding: 2rem;
     margin: 0 auto;
   }
 
-  .experience_content {
+  .skill_content {
     padding: 1rem;
   }
 }
 
 /* ------ MEDIA QUERIES (SMALL DEVICES) ------ */
 @media screen and (max-width: 600px) {
-  .experience_container {
+  .skill_container {
     gap: 1rem;
   }
 
-  .experience_container > div {
+  .skill_container > div {
     width: 100%;
     padding: 2rem 1rem;
   }

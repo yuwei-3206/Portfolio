@@ -18,7 +18,7 @@ const Projects = () => {
   return (
     <section id='projects' className="projects_container">
       <h5>PROJECTS</h5>
-      <h2>My Works</h2>
+      <h2>What I have done</h2>
       <div className="project_list">{ProjectList.map((project) => createEntry(project, openPop))}</div>
 
       {selectedProject && (
@@ -37,7 +37,6 @@ function createEntry(project, openPop) {
       key={project.id}
       images={project.images}
       name={project.name}
-      link={project.link}
       tool={project.tool}
       description={project.description}
       onClick={() => openPop(project)}

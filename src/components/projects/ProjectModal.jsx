@@ -31,34 +31,31 @@ const ProjectPop = ({ project, closePop }) => {
           <div className="pop_text">
             <h2 className="pop_title">{project.name}</h2>
             <p className="pop_description">{project.description}</p>
-            <a className="pop_link" href={project.link} target="_blank" rel="noopener noreferrer">View Code on Github</a>
           </div>
         </div>
         <span className="pop_close" onClick={closePop}>&times;</span>
 
         {project.images.length > 1 && (
           <>
-            <a className="pop_prev_btn" onClick={handlePreviousImage}>
-              <IoIosArrowBack />
-            </a>
+            <div className="pop_arrows">
+              <a className="pop_prev_btn" onClick={handlePreviousImage}>
+                <IoIosArrowBack />
+              </a>
+
+              <a className="pop_next_btn" onClick={handleNextImage}>
+                <IoIosArrowForward />
+              </a>
+            </div>
 
             <div className="pop_circles">
               {project.images.map((_, index) => (
-                <span
+                <span 
                   key={index}
-                  className={
-                    currentImageIndex === index ? "pop_active_circle" : ""
-                  }
+                  className={`pop_circle ${currentImageIndex === index ? "pop_active_circle" : ""}`}
                   onClick={() => setCurrentImageIndex(index)}
                 ></span>
               ))}
             </div>
-            
-            <a className="pop_next_btn" onClick={handleNextImage}>
-              <IoIosArrowForward />
-            </a>
-
-            
           </>
         )}
       </div>

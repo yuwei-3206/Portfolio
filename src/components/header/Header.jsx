@@ -7,7 +7,7 @@ import "./header.css";
 const Header = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const adj = {
-    names: ["YU-WEI WU", "TAIWANESE", "A DESIGNER", "A PROGRAMMAR"],
+    names: ["YU-WEI WU", "TAIWANESE", "A PROGRAMMER", "A DESIGNER"],
   };
 
   useEffect(() => {
@@ -25,7 +25,7 @@ const Header = () => {
           <h2 className="header_hello">Hello, I am</h2>
           <h5 className="names">{adj.names[currentIndex]}</h5>
           <h4>
-             I'm excited to connect with you and share more about my journey, experiences, and aspirations! <br />Let's explore the endless possibilities together!
+             I'm excited to connect with you and share more about my journey, experiences, and aspirations!<br />
           </h4>
           <Calltoaction />
           <a href="#contact" className="scroll_down">

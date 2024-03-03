@@ -23,6 +23,14 @@
     transition: all 100ms ease-in-out;
   }
 
+  .project_list > .builder_container:hover {
+    max-width: 20.2rem;
+    height: 30.2rem;
+    margin-bottom: 2.8rem;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05), 3px 3px 15px rgba(0, 0, 0, 0.2);
+    transition: all 100ms ease-in-out;
+  }
+
   .project_title {
     position: absolute;
     bottom: 11rem;
@@ -94,18 +102,13 @@
   padding-left: 2rem;
 }
 
-.pop_title {
-  
-}
-
 .pop_description {
-  margin: 2rem 0;
+  margin: 1.5rem 0;
 }
 
 .pop_link {
   color: var(--color-dark);
   border-bottom: 1.5px solid var(--color-primary);
-  padding-bottom: 0.5px;
 }
 
 .pop_close {
@@ -116,36 +119,53 @@
   font-size: 1.5rem;
 }
 
-.pop_image_navigation {
+.pop_arrows {
+  position: absolute;
+  margin-left: -10px;
+  bottom: 5%;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 10px;
+  justify-content: space-between;
+  width: 47.5%;
 }
 
 .pop_prev_btn,
 .pop_next_btn {
-  background: transparent;
-  border: none;
+  border: 1.5px solid var(--color-light);
+  border-radius: 50%;
+
   cursor: pointer;
-  font-size: 24px;
-  color: #000;
+  font-size: 20px;
+  color: #ccc;
   margin: 0 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.pop_prev_btn:hover,
+.pop_next_btn:hover {
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.05), 1.5px 1.5px 5px rgba(0, 0, 0, 0.1);
 }
 
 .pop_circles {
   display: flex;
+  margin-left: 21.5%;
+  margin-top: 2.5%;
 }
 
-.pop_circles span {
-  width: 10px;
-  height: 10px;
+.pop_circle {
+  width: 8px;
+  height: 8px;
   border-radius: 50%;
-  background-color: #ccc;
+  background-color: var(--color-light);
   margin: 0 5px;
   cursor: pointer;
 }
 
 .pop_active_circle {
-  background-color: #000;
+  background-color: var(--color-secondary);
 }
