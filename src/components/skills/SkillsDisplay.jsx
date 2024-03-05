@@ -9,7 +9,7 @@ const SkillsDisplay = ({ skillsData }) => {
         <article className="skill_details" key={index}>
           <FaCheckCircle className="skill_details-icon" />
           <div>
-            <h4>{expertise.skill}</h4>
+            <h4 className="skill_list">{expertise.skill}</h4>
           </div>
         </article>
       ))}

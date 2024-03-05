@@ -6,7 +6,7 @@ const Calltoaction = () => {
     window.open(CV, '_blank');
   };
   return (
-    <div className="call_to_action">
+    <div className="header_btns">
       <a className="btn" onClick={openCV}>Resume</a>
       <a className="btn" href="#contact">Get in Touch</a>
     </div>

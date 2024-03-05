@@ -7,6 +7,13 @@ const Skill = () => {
 
   const scrollPosition = ScrollEffect();
 
+  let translateY = scrollPosition / 2.5;
+
+  if (window.innerWidth <= 1040 && window.innerWidth > 600) {
+    translateY = scrollPosition / 5;
+  } else if (window.innerWidth <= 600) {
+    translateY = scrollPosition / 50;
+  }
 
   const designSkillsData = [
     { skill: "Photoshop"},
@@ -32,7 +39,7 @@ const Skill = () => {
 
   return (
     <section id="skills" className="skill" 
-      style={{ backgroundColor: "white", marginTop: `-${scrollPosition / 2.5}px` }}>
+      style={{ backgroundColor: "white", marginTop: `-${translateY}px` }}>
       <h5>SKILLS</h5>
       <h2>What I can do</h2>
       

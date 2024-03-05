@@ -7,38 +7,26 @@ const About = () => {
 
   const scrollPosition = ScrollEffect();
 
-  const translateY = scrollPosition / 6;
+  let translateY = scrollPosition / 6;
 
-  const mediaQueryStyles = `
-    @media screen and (max-width: 1040px) {
-      .about_container {
-        transform: translateY(-${translateY / 5}px);
-      }
-    }
-
-    @media screen and (max-width: 600px) {
-      .about_container {
-        transform: translateY(-${translateY / 18}px);
-      }
-    }
-  `;
-
-  const styleElement = document.createElement('style');
-  styleElement.innerHTML = mediaQueryStyles;
-  document.head.appendChild(styleElement);
+  if (window.innerWidth <= 1040 && window.innerWidth > 600) {
+    translateY = scrollPosition / 4.5;
+  } else if (window.innerWidth <= 600) {
+    translateY = scrollPosition / 2;
+  }
 
   return (
     <section id="about">
       <div className="about_container" style={{ transform: `translateY(-${translateY}px)` }}>
-        <div className="background-image">
+        <div className="background_img">
           <img src={ AboutMeBg } alt="background"/>
         </div>
         
         <div className="about_me">
-          <h2 className="aboutTitle">About Me</h2>
+          <h2 className="about_title">About Me</h2>
 
-          <p className="aboutDescription">
-            Graduated from Drexel with a MS degree in Information Systems in June, 2024. I have dkurftyh ksh oi;erugh nathr ipergkh;isear
+          <p className="about_description">
+            I graduated from Drexel with a MS degree in Information Systems in June, 2024. I have dkurftyh ksh oi;erugh nathr ipergkh;isear
           </p>
         </div>
         

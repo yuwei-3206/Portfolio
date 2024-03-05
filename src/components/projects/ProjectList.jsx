@@ -1,22 +1,22 @@
-import web from '../../assets/web.jpg';
+import portfolio from '../../assets/portfolio/portfolio1.jpg';
 import data from '../../assets/data.png';
 import c from '../../assets/C.png'
-import freeman1 from '../../assets/freeman1.png';
-import freeman2 from '../../assets/freemanGIF1.gif';
-import freeman3 from '../../assets/freemanGIF2.gif';
-import freeman4 from '../../assets/freemanGIF3.gif';
-import freeman5 from '../../assets/freemanGIF4.gif';
-import freeman6 from '../../assets/freemanGIF5.gif';
-import mint from '../../assets/mint.jpg';
-import graphic1 from '../../assets/graphic1.png';
-import graphic2 from '../../assets/graphic2.png';
-import graphic3 from '../../assets/graphic3.png';
-import graphic4 from '../../assets/graphic4.png';
+import freeman1 from '../../assets/freeman/freeman1.png';
+import freeman2 from '../../assets/freeman/freemanGIF1.gif';
+import freeman3 from '../../assets/freeman/freemanGIF2.gif';
+import freeman4 from '../../assets/freeman/freemanGIF3.gif';
+import freeman5 from '../../assets/freeman/freemanGIF4.gif';
+import freeman6 from '../../assets/freeman/freemanGIF5.gif';
+import mint from '../../assets/mint.png';
+import graphic1 from '../../assets/graphic/graphic1.png';
+import graphic2 from '../../assets/graphic/graphic2.png';
+import graphic3 from '../../assets/graphic/graphic3.png';
+import graphic4 from '../../assets/graphic/graphic4.png';
 
 const ProjectList = [
     {
       id: 1,
-      images: [web],
+      images: [portfolio],
       name: "Portfolio Website",
       tool: (
         <div>
@@ -92,7 +92,7 @@ const ProjectList = [
           1. Conducted user research to understand user behaviors, needs, and pain points.<br /> <br />
           2. Created user personas, user journey maps, and wireframes to visualize user interactions.<br /><br />
           3. Designed user-friendly mockups and prototypes using Figma.<br /><br />
-          <a className="pop_link" href={require("../../assets/Freeman-Product Doc.pdf")} target="_blank" rel="noopener noreferrer">View UX research</a>
+          <a className="pop_link" href={require("../../assets/freeman/Freeman-Product Doc.pdf")} target="_blank" rel="noopener noreferrer">View UX research</a>
         </div>),
     },
     {

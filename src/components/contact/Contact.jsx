@@ -1,47 +1,41 @@
-import React, { useRef } from "react";
-
+import React from "react";
+import emailjs from 'emailjs-com';
 import "./contact.css";
 import { MdAttachEmail } from "react-icons/md";
 import { FaGithubSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-import emailjs from "emailjs-com";
+
 
 const Contact = () => {
-  const form = useRef();
-
-  const sendEmail = (e) => {
+  function sendEmail(e) {
     e.preventDefault();
 
-    emailjs
-      .sendForm('service_q2ylcg6', 'template_b0dduwm', form.current, {
-        publicKey: 'IAEajjpG2A7jS-sjp',
-      })
-      .then(
-        () => {
-          console.log('SUCCESS!');
+    emailjs.sendForm('service_q2ylcg6', 'template_b0dduwm', e.target, 'IAEajjpG2A7jS-sjp')
+      .then((result) => {
           window.alert('Email sent successfully!');
-        },
-        (error) => {
-          console.log('FAILED...', error.text);
-        },
-      );
-  };
+      }, (error) => {
+          console.log(error.text);
+      });
+  }
 
   const contactOption = [
     {
       icon: <MdAttachEmail />,
       title: "Email",
       message: "yuwei.wu.0211@gmail.com",
+      link: "mailto:yuwei.wu.0211@gmail.com"
     },
     {
       icon: <FaGithubSquare />,
       title: "Github",
       message: "@yuwei-3206",
+      link: "https://github.com/yuwei-3206"
     },
     {
       icon: <FaLinkedin />,
       title: "LinkedIn",
-      message: "haha",
+      message: "Yu-Wei Wu",
+      link: "https://www.linkedin.com/in/yu-wei-wu-yw3206/"
     },
   ];
 
@@ -54,22 +48,28 @@ const Contact = () => {
         <div className="contact_options">
           {contactOption.map((option, index) => (
             <article className="contact_option" key={index}>
-              <div className="website">
-                <div className="icon">
-                  {option.icon}
-                </div>
+              <div className="icon">
+                {option.icon}
               </div>
+              
+              <div className="contact_message">
+                <p>
+                  {index === 0 ? option.title.split(":")[0] : option.title}
+                </p>
 
-              <p>
-                {index === 0 ? option.title.split(":")[0] : option.title}
-              </p>
-
-              <p>{option.message}</p>
+                {option.link && option.link.startsWith("mailto:") ? (
+                  <a href={option.link}>{option.message}</a>
+                ) : (
+                  <a href={option.link} target="_blank" rel="noopener noreferrer">
+                    {option.message}
+                  </a>
+                )}
+              </div>
             </article>
           ))}
         </div>
 
-        <form ref={form} onSubmit={sendEmail}>
+        <form onSubmit={sendEmail}>
             <div className="form_container">
               <input type="text" name="name" placeholder="Your Name" required />
               <input type="email" name="email" placeholder="Your E-mail" required />
@@ -79,7 +79,7 @@ const Contact = () => {
         </form>
 
       </div>
-      <p className="copyRight">Copyright © 2024 Yu-Wei Wu. All rights reserved.</p>
+      <p className="copyRight">© 2024 Yu-Wei Wu.</p>
     </section>
   );
 };

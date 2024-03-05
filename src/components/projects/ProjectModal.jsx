@@ -26,13 +26,15 @@ const ProjectPop = ({ project, closePop }) => {
       <div className="pop_content" onClick={handleContentClick}>
         <div className="pop_inner_content">
           <div className="pop_img_container">
-            <img src={project.images[currentImageIndex]} alt="Project img" className="pop_img" />
+
+            <img src={project.images[currentImageIndex]} alt="Project img" className="pop_img"/>
+
             
             {project.images.length > 1 && (
               <div className="pop_imgs_swipe">
-                <a className="pop_prev_btn" onClick={handlePreviousImage}>
+                <div className="pop_prev_btn" onClick={handlePreviousImage}>
                   <IoIosArrowBack />
-                </a>
+                </div>
 
                 <div className="pop_circles">
                   {project.images.map((_, index) => (
@@ -44,9 +46,9 @@ const ProjectPop = ({ project, closePop }) => {
                   ))}
                 </div>
 
-                <a className="pop_next_btn" onClick={handleNextImage}>
+                <div className="pop_next_btn" onClick={handleNextImage}>
                   <IoIosArrowForward />
-                </a>
+                </div>
               </div>
             )}
           </div>

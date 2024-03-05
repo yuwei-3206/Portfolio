@@ -1,4 +1,4 @@
-/**  Pop Up Modal  **/
+/**  Pop Up Screen  **/
 
 .pop_bg {
     position: fixed;
@@ -37,11 +37,11 @@
     position: relative;
     text-align: center;
 }
-  
+
 .pop_img {
     max-width: 100%;
-    display: block;
-    margin: 5vh auto 1rem
+    display: flex;
+    margin: 5vh auto
 }
   
 .pop_imgs_swipe {
@@ -62,10 +62,11 @@
 .pop_next_btn {
     border: 1.5px solid var(--color-light);
     border-radius: 50%;
+    background: var(--color-white);
+    color: #ccc;
   
     cursor: pointer;
     font-size: 20px;
-    color: #ccc;
     margin: 0 10px;
   
     display: flex;
@@ -79,6 +80,7 @@
 .pop_prev_btn:hover,
 .pop_next_btn:hover {
     box-shadow: 0 0 0 rgba(0, 0, 0, 0.05), 1.5px 1.5px 5px rgba(0, 0, 0, 0.1);
+    color: var(--color-primary);
 }
   
 .pop_circle {
@@ -116,19 +118,19 @@
     font-size: 1.5rem;
 }
 
-/* ------ MEDIA QUERIES (MEDIUM DEVICES) ------ */
+/* ----- For Tablets - Medium Devices ----- */
 @media screen and (max-width: 1024px) {
     .pop_inner_content {
         display: contents;
     }
   
     .pop_img {
-        max-width: 70%;
-        margin: 1vh auto 3.5rem
+        max-width: 80%;
+        margin: 1vh auto 2.5rem
     }
 
     .pop_imgs_swipe {
-        width: 70%;
+        width: 80%;
         left: 50%;
         transform: translateX(-50%);
     }
@@ -147,15 +149,23 @@
         width: 6px;
         height: 6px;
     }
+
+    .pop_text {
+        margin-top: 3rem;
+    }
+
+    .pop_title {
+        font-size: 22px;
+    }
+
+    .pop_description {
+        font-size: 15px;
+    }
   
 }
 
-/* ------ MEDIA QUERIES (SMALL DEVICES) ------ */
+/* ----- For small screens - Small Devices ----- */
 @media screen and (max-width: 600px) {
-    .pop_inner_content {
-        display: contents;
-    }
-  
     .pop_img {
         max-width: 90%;
         margin: 1vh auto 3.5rem
@@ -163,16 +173,10 @@
 
     .pop_imgs_swipe {
         width: 90%;
-        left: 50%;
-        transform: translateX(-50%);
     }
 
     .pop_prev_btn,
     .pop_next_btn {
-        border: 1px solid var(--color-light);
-    
-        font-size: 15px;
-    
         width: 1.8rem;
         height: 1.8rem;
     }
@@ -181,29 +185,32 @@
         width: 5px;
         height: 5px;
     }
+
+    .pop_text {
+        padding-left: 0.5rem;
+    }
+
+    .pop_title {
+        font-size: 20px;
+    }
+
+    .pop_description {
+        font-size: 14px;
+    }
 }
 
-/* For mobiles - Small Devices */
+/* ----- For mobiles - Small Devices ----- */
 @media screen and (max-width: 400px) {
-    .pop_inner_content {
-        display: contents;
-    }
-  
     .pop_img {
         max-width: 100%;
-        margin: 1vh auto 3.5rem
     }
 
     .pop_imgs_swipe {
         width: 100%;
-        left: 50%;
-        transform: translateX(-50%);
     }
 
     .pop_prev_btn,
     .pop_next_btn {
-        border: 1px solid var(--color-light);
-    
         font-size: 12px;
     
         width: 1.5rem;
