@@ -21,7 +21,7 @@ const Header = () => {
   return (
     <section id="home" className="header-section">
       <header>
-        <div className="container header_container">
+        <div className="header_container">
           <h2 className="header_hello">Hello, I am</h2>
           <h5 className="names">{adj.names[currentIndex]}</h5>
           <h4>

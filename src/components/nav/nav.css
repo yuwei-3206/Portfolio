@@ -1,37 +1,106 @@
-nav {
-    background: rgba(0, 0, 0, 0.05);
-    backdrop-filter: blur(3px);
+.burger-icon {
+    display: none;
+    position: fixed;
+
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.4); 
+
+    top: 2rem;
+    left: 2rem;
+
+    cursor: pointer;
+    outline: none;
+    z-index: 1000;
+  }
+
+.burger-icon:hover {
+    color: rgba(0, 0, 0, 0.6); 
+}
+
+.nav_links {
+    background: transparent;
+    backdrop-filter: blur(5px);
     width: max-content;
     z-index: 2;
 
     position: fixed;
     padding: 0.7rem 0.7rem;
-    left: 4.5rem;
+    left: 4rem;
     transform: translateX(-50%);
-    top: 30%;
+    top: 28vh;
 
     display: flex;
     flex-direction: column;
     gap: 0.8rem;
     border-radius: 3rem;
-    backdrop-filter: blur(15px);
 }
 
-nav a {
+.nav_links.active,
+.burger-icon:not(.burger-icon--active) + .nav_links {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.nav_links > a {
+    display: flex;
     background: transparent;
     padding: 0.9rem;
+
     border-radius: 50%;
-    display: flex;
+    border: 0 !important;
+    outline: 0 !important;
+    outline-color: transparent !important;
+
     color: rgba(0, 0, 0, 0.2);
     font-size: 1.1rem;
 }
 
-nav a:hover {
+.nav_links > a:hover {
     color: var(--color-white);
     background: rgba(88, 88, 88, 0.11);
 }
 
-nav a.active {
+.nav_links > a:focus {
+    outline: none;
+}
+
+.nav_links > a.active {
     background: var(--color-white);
     color: var(--color-primary);
 }
+
+
+/* ------ MEDIA QUERIES (MEDIUM DEVICES) ------ */
+@media screen and (max-width: 1024px) {
+    .nav_links > a {
+        padding: 0.6rem;
+        font-size: 1rem;
+    }
+  }
+  
+  /* ------ MEDIA QUERIES (SMALL DEVICES) ------ */
+  @media screen and (max-width: 600px) {
+    .nav_links {
+        display: none;
+      }
+    
+      .nav_links.active {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 4.5rem;
+        left: 2.75rem;
+        z-index: 999;
+      }
+    
+      .burger-icon {
+        display: block;
+        cursor: pointer;
+      }
+  }
+  
+  /* For mobiles - Small Devices */
+  @media screen and (max-width: 400px) {
+    nav {
+        display: none;
+    }
+  }

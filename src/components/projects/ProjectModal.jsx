@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./projects.css";
+import "./pop.css";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 const ProjectPop = ({ project, closePop }) => {
@@ -25,39 +25,38 @@ const ProjectPop = ({ project, closePop }) => {
     <div className="pop_bg" onClick={closePop}>
       <div className="pop_content" onClick={handleContentClick}>
         <div className="pop_inner_content">
+          <div className="pop_img_container">
+            <img src={project.images[currentImageIndex]} alt="Project img" className="pop_img" />
+            
+            {project.images.length > 1 && (
+              <div className="pop_imgs_swipe">
+                <a className="pop_prev_btn" onClick={handlePreviousImage}>
+                  <IoIosArrowBack />
+                </a>
 
-          <img src={project.images[currentImageIndex]} alt="Project img" className="pop_img" />
+                <div className="pop_circles">
+                  {project.images.map((_, index) => (
+                    <span 
+                      key={index}
+                      className={`pop_circle ${currentImageIndex === index ? "pop_active_circle" : ""}`}
+                      onClick={() => setCurrentImageIndex(index)}
+                    ></span>
+                  ))}
+                </div>
 
+                <a className="pop_next_btn" onClick={handleNextImage}>
+                  <IoIosArrowForward />
+                </a>
+              </div>
+            )}
+          </div>
+          
           <div className="pop_text">
             <h2 className="pop_title">{project.name}</h2>
             <p className="pop_description">{project.description}</p>
           </div>
         </div>
         <span className="pop_close" onClick={closePop}>&times;</span>
-
-        {project.images.length > 1 && (
-          <>
-            <div className="pop_arrows">
-              <a className="pop_prev_btn" onClick={handlePreviousImage}>
-                <IoIosArrowBack />
-              </a>
-
-              <a className="pop_next_btn" onClick={handleNextImage}>
-                <IoIosArrowForward />
-              </a>
-            </div>
-
-            <div className="pop_circles">
-              {project.images.map((_, index) => (
-                <span 
-                  key={index}
-                  className={`pop_circle ${currentImageIndex === index ? "pop_active_circle" : ""}`}
-                  onClick={() => setCurrentImageIndex(index)}
-                ></span>
-              ))}
-            </div>
-          </>
-        )}
       </div>
     </div>
   );

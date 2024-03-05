@@ -1,5 +1,5 @@
 import React from "react";
-import "./experience.css";
+import "./skills.css";
 import { FaCheckCircle } from "react-icons/fa";
 
 const SkillsDisplay = ({ skillsData }) => {

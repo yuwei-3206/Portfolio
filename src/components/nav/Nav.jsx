@@ -4,9 +4,11 @@ import { IoMdHome } from "react-icons/io";
 import { IoPersonSharp } from "react-icons/io5";
 import { FaGear, FaPhone } from "react-icons/fa6";
 import { FaFileCode } from "react-icons/fa";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState("#home");
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -28,23 +30,37 @@ const Nav = () => {
     };
   }, []);
 
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
     <nav>
-      <a href="#home" className={activeNav === "#home" ? "active" : ""}>
-        <IoMdHome />
-      </a>
-      <a href="#about" className={activeNav === "#about" ? "active" : ""}>
-        <IoPersonSharp />
-      </a>
-      <a href="#skills" className={activeNav === "#skills" ? "active" : ""}>
-        <FaGear />
-      </a>
-      <a href="#projects" className={activeNav === "#projects" ? "active" : ""}>
-        <FaFileCode />
-      </a>
-      <a href="#contact" className={activeNav === "#contact" ? "active" : ""}>
-        <FaPhone />
-      </a>
+      <div className="nav_container">
+        <div className="burger-icon" onClick={toggleMenu}>
+          <GiHamburgerMenu />
+        </div>
+
+        
+          <div className={`nav_links ${isMenuOpen ? "active" : ""}`}>
+            <a href="#home" className={activeNav === "#home" ? "active" : ""}>
+              <IoMdHome />
+            </a>
+            <a href="#about" className={activeNav === "#about" ? "active" : ""}>
+              <IoPersonSharp />
+            </a>
+            <a href="#skills" className={activeNav === "#skills" ? "active" : ""}>
+              <FaGear />
+            </a>
+            <a href="#projects" className={activeNav === "#projects" ? "active" : ""}>
+              <FaFileCode />
+            </a>
+            <a href="#contact" className={activeNav === "#contact" ? "active" : ""}>
+              <FaPhone />
+            </a>
+          </div>
+        
+      </div>
     </nav>
   );
 };

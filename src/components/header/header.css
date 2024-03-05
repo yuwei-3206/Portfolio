@@ -1,6 +1,6 @@
 header {
   height: 100vh;
-  padding-top: 10rem;
+  padding-top: 25vh;
   overflow: hidden;
 
   position: relative;
@@ -86,7 +86,7 @@ h4 {
 /* For Tablets - Medium Devices */
 @media screen and (max-width: 1024px) {
   header {
-    height: 65vh;
+    height: 100vh;
   }
 }
 

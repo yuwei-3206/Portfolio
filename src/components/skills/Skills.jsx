@@ -1,5 +1,5 @@
-import React, { useRef, useEffect, useState } from "react";
-import "./experience.css";
+import React from "react";
+import "./skills.css";
 import ScrollEffect from "../../ScrollEffect";
 import SkillsDisplay from "./SkillsDisplay";
 

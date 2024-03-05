@@ -12,7 +12,7 @@
 
   /** Poject Builder **/
 
-  .project_list > .builder_container {
+  .builder_container {
     position: relative;
     max-width: 20rem;
     height: 30rem;
@@ -23,7 +23,7 @@
     transition: all 100ms ease-in-out;
   }
 
-  .project_list > .builder_container:hover {
+  .builder_container:hover {
     max-width: 20.2rem;
     height: 30.2rem;
     margin-bottom: 2.8rem;
@@ -58,114 +58,27 @@
     color: var(--color-white);
   }
 
-  /**  Pop Up Modal  **/
-
-.pop_bg {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.3);
-  z-index: 1000;
+/* ------ MEDIA QUERIES (MEDIUM DEVICES) ------ */
+@media screen and (max-width: 1024px) {
+  
 }
 
-.pop_content {
-  position: fixed;
-  top: 50%;
-  left: 50%;
+/* ------ MEDIA QUERIES (SMALL DEVICES) ------ */
+@media screen and (max-width: 600px) {
+  .pop_arrows {
+    bottom: 6%;
+    justify-content: space-between;
+    width: 46%;
+  }
 
-  transform: translate(-50%, -50%);
-  background-color: var(--color-white);
+  .pop_circles {
 
-  width: 78%;
-  height: 35rem;
-
-  padding: 3rem;
-  overflow-y: scroll;
-  z-index: 1001;
+    margin-left: 20%;
+    margin-top: 2.5%;
+  }
 }
 
-.pop_inner_content {
-  display: flex;
-  align-items: center;
-}
+/* For mobiles - Small Devices */
+@media screen and (max-width: 400px) {
 
-.pop_img {
-  max-width: 50%;
-  display: block;
-  margin-top: 5vh
-}
-
-.pop_text {
-  position: relative;
-  padding-left: 2rem;
-}
-
-.pop_description {
-  margin: 1.5rem 0;
-}
-
-.pop_link {
-  color: var(--color-dark);
-  border-bottom: 1.5px solid var(--color-primary);
-}
-
-.pop_close {
-  position: fixed;
-  top: 1rem;
-  right: 1.5rem;
-  cursor: pointer;
-  font-size: 1.5rem;
-}
-
-.pop_arrows {
-  position: absolute;
-  margin-left: -10px;
-  bottom: 5%;
-  display: flex;
-  justify-content: space-between;
-  width: 47.5%;
-}
-
-.pop_prev_btn,
-.pop_next_btn {
-  border: 1.5px solid var(--color-light);
-  border-radius: 50%;
-
-  cursor: pointer;
-  font-size: 20px;
-  color: #ccc;
-  margin: 0 10px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  width: 2.5rem;
-  height: 2.5rem;
-}
-
-.pop_prev_btn:hover,
-.pop_next_btn:hover {
-  box-shadow: 0 0 0 rgba(0, 0, 0, 0.05), 1.5px 1.5px 5px rgba(0, 0, 0, 0.1);
-}
-
-.pop_circles {
-  display: flex;
-  margin-left: 21.5%;
-  margin-top: 2.5%;
-}
-
-.pop_circle {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background-color: var(--color-light);
-  margin: 0 5px;
-  cursor: pointer;
-}
-
-.pop_active_circle {
-  background-color: var(--color-secondary);
 }

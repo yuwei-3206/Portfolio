@@ -7,9 +7,29 @@ const About = () => {
 
   const scrollPosition = ScrollEffect();
 
+  const translateY = scrollPosition / 6;
+
+  const mediaQueryStyles = `
+    @media screen and (max-width: 1040px) {
+      .about_container {
+        transform: translateY(-${translateY / 5}px);
+      }
+    }
+
+    @media screen and (max-width: 600px) {
+      .about_container {
+        transform: translateY(-${translateY / 18}px);
+      }
+    }
+  `;
+
+  const styleElement = document.createElement('style');
+  styleElement.innerHTML = mediaQueryStyles;
+  document.head.appendChild(styleElement);
+
   return (
     <section id="about">
-      <div className="about_container" style={{ transform: `translateY(-${scrollPosition / 6}px)` }}>
+      <div className="about_container" style={{ transform: `translateY(-${translateY}px)` }}>
         <div className="background-image">
           <img src={ AboutMeBg } alt="background"/>
         </div>
