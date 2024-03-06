@@ -45,7 +45,7 @@
 
   .project_tool {
     position: absolute;
-
+    padding-right: 2rem;
     bottom: 7rem;
   }
 
@@ -60,7 +60,14 @@
 
 /* ----- For Tablets - Medium Devices ----- */
 @media screen and (max-width: 1024px) {
-  
+  .project_title {
+    font-size: 120%;
+    font-weight: 600;
+  }
+
+  .project_tool {
+    font-size: 15px;
+  }
 }
 
 /* ----- For small screens - Small Devices ----- */

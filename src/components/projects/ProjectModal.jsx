@@ -7,6 +7,8 @@ const ProjectPop = ({ project, closePop }) => {
     event.stopPropagation();
   };
 
+  const [startX, setStartX] = useState(0);
+  const [endX, setEndX] = useState(0);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const handleNextImage = () => {
@@ -21,11 +23,36 @@ const ProjectPop = ({ project, closePop }) => {
     );
   };
 
+  const handleTouchStart = (event) => {
+    setStartX(event.touches[0].clientX);
+  };
+
+  const handleTouchMove = (event) => {
+    setEndX(event.touches[0].clientX);
+  };
+
+  const handleTouchEnd = () => {
+    if (endX - startX > 50) {
+      // Swipe right
+      handlePreviousImage();
+    } else if (startX - endX > 50) {
+      // Swipe left
+      handleNextImage();
+    }
+    setStartX(0);
+    setEndX(0);
+  };
+
+
   return (
     <div className="pop_bg" onClick={closePop}>
       <div className="pop_content" onClick={handleContentClick}>
         <div className="pop_inner_content">
-          <div className="pop_img_container">
+          <div className="pop_img_container"
+              onTouchStart={handleTouchStart}
+              onTouchMove={handleTouchMove}
+              onTouchEnd={handleTouchEnd}
+          >
 
             <img src={project.images[currentImageIndex]} alt="Project img" className="pop_img"/>
 

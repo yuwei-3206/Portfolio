@@ -43,18 +43,19 @@
 
     .background_img {
         max-width: 600px;
-        height: 250px;
+        height: auto;
         overflow: hidden;
+        margin-bottom: 2rem;
     }
 
     .background_img img {
         width: 100%;
         object-fit: cover;
-        margin-top: -38vh;
+        margin-top: -20vh;
     }
 
     .about_me {
-        margin: 2rem 2rem;
+        margin: 2rem;
     }
 
     .about_title::after {

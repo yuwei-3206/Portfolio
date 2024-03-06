@@ -7,8 +7,8 @@ const Calltoaction = () => {
   };
   return (
     <div className="header_btns">
-      <a className="btn" onClick={openCV}>Resume</a>
-      <a className="btn" href="#contact">Get in Touch</a>
+      <div className="btn" onClick={openCV}>Resume</div>
+      <div className="btn" href="#contact">Get in Touch</div>
     </div>
   );
 };

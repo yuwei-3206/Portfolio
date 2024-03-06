@@ -30,6 +30,7 @@ const Sociallinks = () => {
           key={index}
           title={socialDetail.title}
           target="_blank"
+          rel="noreferrer"
         >
           {socialDetail.icon}
         </a>

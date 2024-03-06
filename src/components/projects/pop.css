@@ -120,6 +120,11 @@
 
 /* ----- For Tablets - Medium Devices ----- */
 @media screen and (max-width: 1024px) {
+    .pop_content {
+        width: 90%;
+        height: 80%;
+    }
+
     .pop_inner_content {
         display: contents;
     }
@@ -133,21 +138,12 @@
         width: 80%;
         left: 50%;
         transform: translateX(-50%);
+        justify-content: center;
     }
 
     .pop_prev_btn,
     .pop_next_btn {
-        border: 1px solid var(--color-light);
-    
-        font-size: 15px;
-    
-        width: 2rem;
-        height: 2rem;
-    }
-
-    .pop_circle {
-        width: 6px;
-        height: 6px;
+        display: none;
     }
 
     .pop_text {
@@ -166,24 +162,20 @@
 
 /* ----- For small screens - Small Devices ----- */
 @media screen and (max-width: 600px) {
+    .pop_content {
+        width: 100%;
+        height: 80%;
+        padding: 2rem;
+    }
+
     .pop_img {
-        max-width: 90%;
-        margin: 1vh auto 3.5rem
+        max-width: 100%;
+        margin: 3vh auto 3.5rem
     }
 
     .pop_imgs_swipe {
         width: 90%;
-    }
-
-    .pop_prev_btn,
-    .pop_next_btn {
-        width: 1.8rem;
-        height: 1.8rem;
-    }
-
-    .pop_circle {
-        width: 5px;
-        height: 5px;
+        justify-content: center;
     }
 
     .pop_text {
@@ -191,35 +183,10 @@
     }
 
     .pop_title {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .pop_description {
         font-size: 14px;
     }
-}
-
-/* ----- For mobiles - Small Devices ----- */
-@media screen and (max-width: 400px) {
-    .pop_img {
-        max-width: 100%;
-    }
-
-    .pop_imgs_swipe {
-        width: 100%;
-    }
-
-    .pop_prev_btn,
-    .pop_next_btn {
-        font-size: 12px;
-    
-        width: 1.5rem;
-        height: 1.5rem;
-    }
-
-    .pop_circle {
-        width: 4px;
-        height: 4px;
-    }
-
 }
