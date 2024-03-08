@@ -1,7 +1,6 @@
 import React from "react";
 //Using React-icons from GitHub
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { MdOutlineWeb } from "react-icons/md";
 
 const Sociallinks = () => {
   const socialDetails = [
