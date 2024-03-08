@@ -7,23 +7,17 @@ const Sociallinks = () => {
   const socialDetails = [
     {
       icon: <FaLinkedin />,
-      href: "#Link to Site",
+      href: "https://www.linkedin.com/in/yu-wei-wu-yw3206/",
       title: "LinkedIn",
     },
     {
       icon: <FaGithub />,
-      href: "#Link to Site",
+      href: "https://github.com/yuwei-3206",
       title: "GitHub",
-    },
-    {
-      icon: <MdOutlineWeb />,
-      href: "#Link to Site",
-      title: "My Website",
     },
   ];
   return (
     <div className="social_links">
-      {/* Dynamically updating values */}
       {socialDetails.map((socialDetail, index) => (
         <a
           href={socialDetail.href}
