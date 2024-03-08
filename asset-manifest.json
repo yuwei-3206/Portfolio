@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.f0ff3385.css",
-    "main.js": "/Portfolio/static/js/main.e680bb5a.js",
+    "main.css": "/Portfolio/static/css/main.cf95fb29.css",
+    "main.js": "/Portfolio/static/js/main.30c215bb.js",
     "static/media/AboutMeBg.jpg": "/Portfolio/static/media/AboutMeBg.7623a0ae143f84cd7c7e.jpg",
     "static/media/portfolio1.jpg": "/Portfolio/static/media/portfolio1.92381852512775936a75.jpg",
     "static/media/mint-Hueristic Evaluation.pdf": "/Portfolio/static/media/mint-Hueristic Evaluation.a39214e439d6cb039090.pdf",
     "static/media/freemanGIF2.gif": "/Portfolio/static/media/freemanGIF2.e053d67319cbcf89d6d0.gif",
     "static/media/graphic2.png": "/Portfolio/static/media/graphic2.b49dc53aee25fb2810d6.png",
     "static/media/freemanGIF5.gif": "/Portfolio/static/media/freemanGIF5.424672daf735d32e9f7a.gif",
-    "static/media/Yuwei Wu_Resume 2024.pdf": "/Portfolio/static/media/Yuwei Wu_Resume 2024.78cac79d7121b03baa99.pdf",
+    "static/media/Yu-Wei Wu_Resume 2024.pdf": "/Portfolio/static/media/Yu-Wei Wu_Resume 2024.0283bbffcd00593c79f2.pdf",
     "static/media/freemanGIF3.gif": "/Portfolio/static/media/freemanGIF3.49c6f5b968c47fdfd874.gif",
     "static/media/freemanGIF4.gif": "/Portfolio/static/media/freemanGIF4.413c8dfd26e4efab2803.gif",
     "static/media/Freeman-Product Doc.pdf": "/Portfolio/static/media/Freeman-Product Doc.b1787932a5f496abec1f.pdf",
@@ -21,11 +21,11 @@
     "static/media/graphic3.png": "/Portfolio/static/media/graphic3.75c7ecad6948f6304be3.png",
     "static/media/C.png": "/Portfolio/static/media/C.d4414532785b3bf68f8a.png",
     "index.html": "/Portfolio/index.html",
-    "main.f0ff3385.css.map": "/Portfolio/static/css/main.f0ff3385.css.map",
-    "main.e680bb5a.js.map": "/Portfolio/static/js/main.e680bb5a.js.map"
+    "main.cf95fb29.css.map": "/Portfolio/static/css/main.cf95fb29.css.map",
+    "main.30c215bb.js.map": "/Portfolio/static/js/main.30c215bb.js.map"
   },
   "entrypoints": [
-    "static/css/main.f0ff3385.css",
-    "static/js/main.e680bb5a.js"
+    "static/css/main.cf95fb29.css",
+    "static/js/main.30c215bb.js"
   ]
 }
