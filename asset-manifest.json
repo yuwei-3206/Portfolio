@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.cf95fb29.css",
-    "main.js": "/Portfolio/static/js/main.30c215bb.js",
+    "main.css": "/Portfolio/static/css/main.56f93a8a.css",
+    "main.js": "/Portfolio/static/js/main.cac67efe.js",
     "static/media/AboutMeBg.jpg": "/Portfolio/static/media/AboutMeBg.7623a0ae143f84cd7c7e.jpg",
     "static/media/portfolio1.jpg": "/Portfolio/static/media/portfolio1.92381852512775936a75.jpg",
     "static/media/mint-Hueristic Evaluation.pdf": "/Portfolio/static/media/mint-Hueristic Evaluation.a39214e439d6cb039090.pdf",
@@ -21,11 +21,11 @@
     "static/media/graphic3.png": "/Portfolio/static/media/graphic3.75c7ecad6948f6304be3.png",
     "static/media/C.png": "/Portfolio/static/media/C.d4414532785b3bf68f8a.png",
     "index.html": "/Portfolio/index.html",
-    "main.cf95fb29.css.map": "/Portfolio/static/css/main.cf95fb29.css.map",
-    "main.30c215bb.js.map": "/Portfolio/static/js/main.30c215bb.js.map"
+    "main.56f93a8a.css.map": "/Portfolio/static/css/main.56f93a8a.css.map",
+    "main.cac67efe.js.map": "/Portfolio/static/js/main.cac67efe.js.map"
   },
   "entrypoints": [
-    "static/css/main.cf95fb29.css",
-    "static/js/main.30c215bb.js"
+    "static/css/main.56f93a8a.css",
+    "static/js/main.cac67efe.js"
   ]
 }
