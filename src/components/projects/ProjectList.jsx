@@ -1,5 +1,8 @@
-import portfolio from '../../assets/portfolio/portfolio1.jpg';
-import data from '../../assets/data.png';
+import portfolio1 from '../../assets/portfolio/portfolio.png';
+import portfolio2 from '../../assets/portfolio/portfolio-gif1.gif';
+import portfolio3 from '../../assets/portfolio/portfolio-gif2.gif';
+import portfolio4 from '../../assets/portfolio/portfolio-gif3.gif';
+import data from '../../assets/data1.png';
 import c from '../../assets/C.png'
 import freeman1 from '../../assets/freeman/freeman1.png';
 import freeman2 from '../../assets/freeman/freemanGIF1.gif';
@@ -16,7 +19,7 @@ import graphic4 from '../../assets/graphic/graphic4.png';
 const ProjectList = [
     {
       id: 1,
-      images: [portfolio],
+      images: [portfolio1, portfolio2, portfolio3, portfolio4],
       name: "Portfolio Website",
       tool: (
         <div>
