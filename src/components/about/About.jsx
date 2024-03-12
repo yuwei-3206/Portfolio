@@ -26,7 +26,10 @@ const About = () => {
           <h2 className="about_title">About Me</h2>
 
           <p className="about_description">
-            I graduated from Drexel with a MS degree in Information Systems in June, 2024. I have dkurftyh ksh oi;erugh nathr ipergkh;isear
+            Hello, I'm Yu-Wei, a recent graduate from Drexel University with a MS degree in Information Systems. <br /><br />
+            My journey into the Technology began after completing my Bachelor's degree in Design. This background helps me think creatively and solve problems in all aspects of life. <br /><br />
+            One of my experiences includes taking on a 6 months solo journey, during which I navigated through unfamiliarities and embraced unforeseen challenges with confidence.<br /><br /> 
+            With a strong foundation in adaptability and problem-solving, I am also known for my ability to quickly grasp new concepts and adapt to new environments.
           </p>
         </div>
         

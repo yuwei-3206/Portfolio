@@ -9,7 +9,7 @@
 
 .about_me {
     flex-grow: 1;
-    margin-left: 2rem;
+    margin: 2rem 2.5rem;
 }
 
 .about_title::after {
@@ -17,15 +17,12 @@
     content: "";
 
     transform: rotate(90deg);
-    margin: -1rem 2rem;
+    margin: -1.5rem 2rem;
+    margin-bottom: 0.5rem;
     
     width: 2px;
     height: 4rem;
     background: var(--color-primary);
-}
-
-.about_description {
-    margin-top: 1.5rem;
 }
 
 /* ----- For Tablets - Medium Devices ----- */
