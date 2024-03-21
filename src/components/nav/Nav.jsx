@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import "./nav.css";
 import { IoMdHome } from "react-icons/io";
-import { IoPersonSharp } from "react-icons/io5";
+import { IoPersonSharp, IoCloseSharp} from "react-icons/io5";
 import { FaGear, FaPhone } from "react-icons/fa6";
 import { FaFileCode } from "react-icons/fa";
-import { GiHamburgerMenu } from "react-icons/gi";
+import { GiHamburgerMenu} from "react-icons/gi";
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState("#home");
@@ -34,55 +34,82 @@ const Nav = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const handleNavLinkClick = (navId) => {
+    setActiveNav(navId);
+    setIsMenuOpen(false); // Close the menu when a link is clicked
+  };
+
   return (
     <nav>
       <div className="nav_container">
         <div className="burger-icon" onClick={toggleMenu}>
-          <GiHamburgerMenu />
+          {isMenuOpen ? <IoCloseSharp /> : <GiHamburgerMenu />}
         </div>
 
-        
-          <div className={`nav_links ${isMenuOpen ? "active" : ""}`}>
-            <a href="#home" className={activeNav === "#home" ? "active" : ""}>
+        {isMenuOpen && <div className="overlay" onClick={toggleMenu} />}
+
+        <div className={`nav_links ${isMenuOpen ? "active" : ""}`}>
+          {window.innerWidth < 600 ? (
+            <>
+              <a
+                href="#home"
+                className={activeNav === "#home" ? "active" : ""}
+                onClick={() => handleNavLinkClick("#home")}
+              >
+                Home
+              </a>
+              <a
+                href="#about"
+                className={activeNav === "#about" ? "active" : ""}
+                onClick={() => handleNavLinkClick("#about")}
+              >
+                About
+              </a>
+              <a
+                href="#skills"
+                className={activeNav === "#skills" ? "active" : ""}
+                onClick={() => handleNavLinkClick("#skills")}
+              >
+                Skills
+              </a>
+              <a
+                href="#projects"
+                className={activeNav === "#projects" ? "active" : ""}
+                onClick={() => handleNavLinkClick("#projects")}
+              >
+                Projects
+              </a>
+              <a
+                href="#contact"
+                className={activeNav === "#contact" ? "active" : ""}
+                onClick={() => handleNavLinkClick("#contact")}
+              >
+                Contact
+              </a>
+            </>
+          ) : (
+            <>
+              <a href="#home" className={activeNav === "#home" ? "active" : ""}>
               <IoMdHome />
-            </a>
-            <a href="#about" className={activeNav === "#about" ? "active" : ""}>
-              <IoPersonSharp />
-            </a>
-            <a href="#skills" className={activeNav === "#skills" ? "active" : ""}>
-              <FaGear />
-            </a>
-            <a href="#projects" className={activeNav === "#projects" ? "active" : ""}>
-              <FaFileCode />
-            </a>
-            <a href="#contact" className={activeNav === "#contact" ? "active" : ""}>
-              <FaPhone />
-            </a>
-          </div>
-        
+              </a>
+              <a href="#about" className={activeNav === "#about" ? "active" : ""}>
+                <IoPersonSharp />
+              </a>
+              <a href="#skills" className={activeNav === "#skills" ? "active" : ""}>
+                <FaGear />
+              </a>
+              <a href="#projects" className={activeNav === "#projects" ? "active" : ""}>
+                <FaFileCode />
+              </a>
+              <a href="#contact" className={activeNav === "#contact" ? "active" : ""}>
+                <FaPhone />
+              </a>
+            </>
+          )}
+        </div>
       </div>
     </nav>
   );
 };
 
 export default Nav;
-
-/** useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting && entry.intersectionRatio >= 0.5) {
-            setActiveNav(`#${entry.target.id}`);
-          }
-        });
-      },
-      { threshold: 0.5, rootMargin: "0px 0px -200px 0px" }
-    );
-
-    const sections = document.querySelectorAll("section[id]");
-    sections.forEach((section) => observer.observe(section));
-
-    return () => {
-      sections.forEach((section) => observer.unobserve(section));
-    };
-  }, []);*/

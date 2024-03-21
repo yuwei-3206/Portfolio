@@ -10,6 +10,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 1.1rem;
 }
 
@@ -88,7 +89,7 @@ header {
 /* ----- For small screens - Small Devices ----- */
 @media screen and (max-width: 600px) {
   .names {
-    font-size: 8vw;
+    font-size: 9vw;
     letter-spacing: 0.2rem;
   }
 
