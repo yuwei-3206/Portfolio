@@ -1,6 +1,5 @@
 header {
   height: 100vh;
-  padding-top: 25vh;
   overflow: hidden;
 
   position: relative;
@@ -100,7 +99,6 @@ header {
 
   header {
     height: 90vh;
-    padding-top: 15vh;
   }
 
   .header_btns {
