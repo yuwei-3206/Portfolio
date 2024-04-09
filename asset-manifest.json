@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.9d128fa7.css",
-    "main.js": "/Portfolio/static/js/main.c7999d8d.js",
+    "main.css": "/Portfolio/static/css/main.29b7c9d4.css",
+    "main.js": "/Portfolio/static/js/main.a2665975.js",
     "static/media/AboutMeBg.jpg": "/Portfolio/static/media/AboutMeBg.7623a0ae143f84cd7c7e.jpg",
     "static/media/mint-Hueristic Evaluation.pdf": "/Portfolio/static/media/mint-Hueristic Evaluation.a39214e439d6cb039090.pdf",
     "static/media/freemanGIF2.gif": "/Portfolio/static/media/freemanGIF2.e053d67319cbcf89d6d0.gif",
@@ -24,11 +24,11 @@
     "static/media/portfolio.png": "/Portfolio/static/media/portfolio.63411ed57131d9bbaa3e.png",
     "static/media/C.png": "/Portfolio/static/media/C.d4414532785b3bf68f8a.png",
     "index.html": "/Portfolio/index.html",
-    "main.9d128fa7.css.map": "/Portfolio/static/css/main.9d128fa7.css.map",
-    "main.c7999d8d.js.map": "/Portfolio/static/js/main.c7999d8d.js.map"
+    "main.29b7c9d4.css.map": "/Portfolio/static/css/main.29b7c9d4.css.map",
+    "main.a2665975.js.map": "/Portfolio/static/js/main.a2665975.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d128fa7.css",
-    "static/js/main.c7999d8d.js"
+    "static/css/main.29b7c9d4.css",
+    "static/js/main.a2665975.js"
   ]
 }
