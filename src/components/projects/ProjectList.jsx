@@ -30,12 +30,49 @@ const ProjectList = [
         <div>
           Created a portfolio website using React. It's designed to be easy to navigate and visually appealing. The site is built to work well on all devices and has been continuously improved for a better user experience.<br /><br />
           1. Developed components using React to ensure smooth navigation and captivating content display.<br /><br />
-          2. Employed React's component-based structure to create reusable UI elements, enhancing adaptability and scalability.<br /><br />
+          2. Designed website interactivity using React hooks for a consistent user interface without the need for reconfiguration.<br /><br />
+          3. Utilized CSS variables for effortless color scheme customization and automated deployment with Node.js.<br /><br />
           <a className="pop_link" href={"https://github.com/yuwei-3206/Portfolio"} target="_blank" rel="noopener noreferrer">View code on Github</a>
         </div>)
     },
     {
       id: 2,
+      images: [],
+      name: "Audio Player Application",
+      tool: (
+        <div>
+          HTML, CSS, JavaScript<br />
+          Framework: React
+        </div>),
+      description: (
+        <div>
+          This project is an audio player application built with React. It allows users to play songs and podcasts from a playlist. The application includes features like play/pause, previous track, next track, and shuffle functionalities.<br /><br />
+          1. Developed an application using React, featuring play/pause, track navigation, and shuffle functionalities.<br /><br />
+          2. Utilized React hooks for dynamic playlist management, fetching data asynchronously from an external JSON file.<br /><br />
+          3. Implemented test suites to cover critical functionalities such as play/pause controls, track navigation, and shuffle functionalities.<br /><br />
+          <a className="pop_link" href={"https://github.com/yuwei-3206/Audio-Player"} target="_blank" rel="noopener noreferrer">View code on Github</a>
+        </div>)
+    },
+    {
+      id: 3,
+      images: [],
+      name: "Travel Management Application",
+      tool: (
+        <div>
+          JavaScript, Python, API<br />
+          Framework: React, Flask
+        </div>),
+      description: (
+        <div>
+          The Travel Management Application helps users plan and organize their trips efficiently. Developed using Python and the Flask framework for the backend, along with React for the frontend, this application ensures a smooth and intuitive user experience from registration to travel plan management.<br /><br />
+          1. Analyzed research data and developed the client-side application using React.<br /><br />
+          2. Developed with Python and Flask, managed backend tasks like routing, request handling, and database management.<br /><br />
+          3. Implemented user authentication and authorization mechanisms to secure sensitive user data.<br /><br />
+          <a className="pop_link" href={"https://github.com/yuwei-3206/Travel-Management"} target="_blank" rel="noopener noreferrer">View code on Github</a>
+        </div>)
+    },
+    {
+      id: 4,
       images: [data],
       name: "Database Normalization",
       tool: (
@@ -53,7 +90,7 @@ const ProjectList = [
       
     },
     {
-      id: 3,
+      id: 5,
       images: [c],
       name: "C Programs",
       tool:
@@ -70,7 +107,7 @@ const ProjectList = [
         </div>),
     },
     {
-      id: 4,
+      id: 6,
       images: [mint],
       name: "Mint Mobile - UX Research",
       tool:
@@ -84,7 +121,7 @@ const ProjectList = [
         </div>),
     },
     {
-      id: 5,
+      id: 7,
       images: [freeman1, freeman2, freeman3, freeman4, freeman5, freeman6],
       name: "Freeman Beauty - UX Research/Design",
       tool:
@@ -99,7 +136,7 @@ const ProjectList = [
         </div>),
     },
     {
-      id: 6,
+      id: 8,
       images: [graphic1, graphic2, graphic3, graphic4],
       name: "Graphic Design",
       tool:
