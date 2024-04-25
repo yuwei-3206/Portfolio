@@ -8,8 +8,8 @@ const Calltoaction = () => {
   
   return (
     <div className="header_btns">
-      <div className="btn" onClick={openCV}>Resume</div>
-      <a className="btn" href="#contact">Get in Touch</a>
+      <div className="btn primaryBtn" onClick={openCV}>Resume</div>
+      <a className="btn secondBtn" href="#contact">Get in Touch</a>
     </div>
   );
 };

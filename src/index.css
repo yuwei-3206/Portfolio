@@ -112,20 +112,26 @@ a:hover {
 
 .btn {
   width: max-content;
-
-  background: var(--color-primary);
-  color: var(--color-white);
+  display: inline-block;
   
   font-weight: 300;
 
   padding: 0.75rem 1.25rem;
-  border-radius: 0.5rem;
-  border-color: transparent;
+  border-radius: 0.3rem;
+  border: 1px solid var(--color-primary);
 
   cursor: pointer;
   transition: var(--transision);
 }
+.primaryBtn {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
 
+.secondBtn {
+  background: transparent;
+  color: var(--color-primary);
+}
 
 .btn:hover {
   background: var(--color-secondary);

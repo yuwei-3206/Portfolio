@@ -2,6 +2,8 @@ import portfolio1 from '../../assets/portfolio/portfolio.png';
 import portfolio2 from '../../assets/portfolio/portfolio-gif1.gif';
 import portfolio3 from '../../assets/portfolio/portfolio-gif2.gif';
 import portfolio4 from '../../assets/portfolio/portfolio-gif3.gif';
+import audioplayer1 from '../../assets/audio-player/audio-player.jpg';
+import python from '../../assets/Python.png'
 import data from '../../assets/data1.png';
 import c from '../../assets/C.png'
 import freeman1 from '../../assets/freeman/freeman1.png';
@@ -37,8 +39,8 @@ const ProjectList = [
     },
     {
       id: 2,
-      images: [],
-      name: "Audio Player Application",
+      images: [audioplayer1],
+      name: "Audio Player",
       tool: (
         <div>
           HTML, CSS, JavaScript<br />
@@ -46,16 +48,17 @@ const ProjectList = [
         </div>),
       description: (
         <div>
-          This project is an audio player application built with React. It allows users to play songs and podcasts from a playlist. The application includes features like play/pause, previous track, next track, and shuffle functionalities.<br /><br />
-          1. Developed an application using React, featuring play/pause, track navigation, and shuffle functionalities.<br /><br />
-          2. Utilized React hooks for dynamic playlist management, fetching data asynchronously from an external JSON file.<br /><br />
-          3. Implemented test suites to cover critical functionalities such as play/pause controls, track navigation, and shuffle functionalities.<br /><br />
-          <a className="pop_link" href={"https://github.com/yuwei-3206/Audio-Player"} target="_blank" rel="noopener noreferrer">View code on Github</a>
+          You can actually play the audio and interact with it!<br />
+          <a className="pop_link" href={"https://yuwei-3206.github.io/Audio-Player/"} target="_blank" rel="noopener noreferrer">Click to visit</a><br /><br />
+          This project is an audio player built with React. It allows users to play songs and podcasts from a playlist. The application includes features like play/pause, previous track, next track, shuffle, and track length functionalities. It's designed for larger screens and may not be optimized for mobile devices.<br /><br />
+          1. Utilized React hooks for dynamic playlist management, fetching data asynchronously from an external JSON file.<br /><br />
+          2. Implemented test suites to cover critical functionalities such as play/pause controls, track navigation, and shuffle functionalities.<br /><br />
+          3. Implemented features that allow users to actively engage with audio content during playback, enabling real-time interaction with the audio.<br /><br />
         </div>)
     },
     {
       id: 3,
-      images: [],
+      images: [python],
       name: "Travel Management Application",
       tool: (
         <div>

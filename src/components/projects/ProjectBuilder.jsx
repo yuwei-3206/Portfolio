@@ -9,7 +9,7 @@ function ProjectBuilder(props) {
       </span>
       <span className="project_title">{props.name}</span>
       <p className="project_tool">{props.tool}</p>
-      <button className="btn" onClick={props.onClick}>
+      <button className="btn primaryBtn" onClick={props.onClick}>
         View Project
       </button>
     </div>

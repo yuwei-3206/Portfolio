@@ -30,12 +30,11 @@
   
 .pop_inner_content {
     display: flex;
-    align-items: center;
 }
 
 .pop_img_container {
     position: relative;
-    text-align: center;
+    text-align: start;
 }
 
 .pop_img {
