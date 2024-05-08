@@ -9,7 +9,7 @@
 
 .about_me {
     flex-grow: 1;
-    margin: 2rem 2.5rem;
+    margin: 1rem 2.5rem;
 }
 
 .about_title::after {
@@ -24,6 +24,11 @@
     height: 4rem;
     background: var(--color-primary);
 }
+
+.social_links_about {
+    gap: 1.5rem;
+    align-items: center;
+  }
 
 /* ----- For Tablets - Medium Devices ----- */
 @media screen and (max-width: 1040px) {

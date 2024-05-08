@@ -7,11 +7,14 @@ import python from '../../assets/Python.png'
 import data from '../../assets/data1.png';
 import c from '../../assets/C.png'
 import freeman1 from '../../assets/freeman/freeman1.png';
-import freeman2 from '../../assets/freeman/freemanGIF1.gif';
-import freeman3 from '../../assets/freeman/freemanGIF2.gif';
-import freeman4 from '../../assets/freeman/freemanGIF3.gif';
-import freeman5 from '../../assets/freeman/freemanGIF4.gif';
-import freeman6 from '../../assets/freeman/freemanGIF5.gif';
+import freeman2 from '../../assets/freeman/freeman2.png';
+import freeman3 from '../../assets/freeman/freeman3.png';
+import freeman4 from '../../assets/freeman/freeman4.png';
+import freeman5 from '../../assets/freeman/freemanGIF1.gif';
+import freeman6 from '../../assets/freeman/freemanGIF2.gif';
+import freeman7 from '../../assets/freeman/freemanGIF3.gif';
+import freeman8 from '../../assets/freeman/freemanGIF4.gif';
+import freeman9 from '../../assets/freeman/freemanGIF5.gif';
 import mint from '../../assets/mint.png';
 import graphic1 from '../../assets/graphic/graphic1.png';
 import graphic2 from '../../assets/graphic/graphic2.png';
@@ -43,14 +46,14 @@ const ProjectList = [
       name: "Audio Player",
       tool: (
         <div>
-          HTML, CSS, JavaScript<br />
+          HTML, CSS, JavaScript, JSON<br />
           Framework: React
         </div>),
       description: (
         <div>
           You can actually play the audio and interact with it!<br />
           <a className="pop_link" href={"https://yuwei-3206.github.io/Audio-Player/"} target="_blank" rel="noopener noreferrer">Click to visit</a><br /><br />
-          This project is an audio player built with React. It allows users to play songs and podcasts from a playlist. The application includes features like play/pause, previous track, next track, shuffle, and track length functionalities. It's designed for larger screens and may not be optimized for mobile devices.<br /><br />
+          This project is an audio player for desktop built with React. It allows users to play songs and podcasts from a playlist. The application includes features like play/pause, previous track, next track, shuffle, and track length functionalities.<br /><br />
           1. Utilized React hooks for dynamic playlist management, fetching data asynchronously from an external JSON file.<br /><br />
           2. Implemented test suites to cover critical functionalities such as play/pause controls, track navigation, and shuffle functionalities.<br /><br />
           3. Implemented features that allow users to actively engage with audio content during playback, enabling real-time interaction with the audio.<br /><br />
@@ -125,7 +128,7 @@ const ProjectList = [
     },
     {
       id: 7,
-      images: [freeman1, freeman2, freeman3, freeman4, freeman5, freeman6],
+      images: [freeman1, freeman2, freeman3, freeman4, freeman5, freeman6, freeman7, freeman8, freeman9],
       name: "Freeman Beauty - UX Research/Design",
       tool:
         "Figma, Prototyping User Research, Visual Design, ",

@@ -2,6 +2,7 @@ import React from "react";
 import ScrollEffect from "../../ScrollEffect";
 import "./about.css";
 import AboutMeBg from "../../assets/AboutMeBg.jpg";
+import Sociallinks from "../header/Sociallinks";
 
 const About = () => {
 
@@ -26,11 +27,13 @@ const About = () => {
           <h2 className="about_title">About Me</h2>
 
           <p className="about_description">
-            Hello, I'm Yu-Wei, a recent graduate from Drexel University with a MS degree in Information Systems. <br /><br />
-            My journey into technology began after completing my Bachelor's degree in Design. This background helps me think creatively and solve problems in all aspects of life. <br /><br />
-            One of my experiences includes taking on a 6 months solo journey, during which I navigated through unfamiliarities and embraced unforeseen challenges with confidence.<br /><br /> 
-            With a strong foundation in adaptability and problem-solving, I am also known for my ability to quickly grasp new concepts and adapt to new environments.
+            Hello, I'm Yu-Wei. I'm a Taiwanese designer and programmer. <br /><br />
+            As a recent graduate from Drexel University with a MS degree in Information Systems, and a former UI Graphic Designer, I've become deeply interested in all aspects of web development. From front-end, user-experienced, aesthetics to back-end, unseen, functionality.<br /><br />
+            It's not only about the visual design; creating and implementing the functional aspects of a project are equally crucial. A great project brings together both aspects to deliver a satisfying user experience.<br /><br />
           </p>
+          <div className="social_links_about">
+            <Sociallinks />
+          </div>
         </div>
         
       </div>

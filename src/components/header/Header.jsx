@@ -32,7 +32,9 @@ const Header = () => {
             Scroll Down <FaArrowRight />
           </a>
           <div className="social_links_container">
-            <Sociallinks />
+            <div className="social_links_header">
+              <Sociallinks />
+            </div>
           </div>
         </div>
       </header>

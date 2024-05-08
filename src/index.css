@@ -30,7 +30,12 @@
 html {
   scroll-behavior: smooth;
 }
+
 ::-webkit-scrollbar {
+  display: none;
+}
+
+::-webkit-scrollbar-button { 
   display: none;
 }
 
