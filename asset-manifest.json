@@ -1,13 +1,12 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.cc6f51d8.css",
-    "main.js": "/Portfolio/static/js/main.ab6ee477.js",
+    "main.css": "/Portfolio/static/css/main.2f3fc4a5.css",
+    "main.js": "/Portfolio/static/js/main.a6f5f59c.js",
     "static/media/AboutMeBg.jpg": "/Portfolio/static/media/AboutMeBg.7623a0ae143f84cd7c7e.jpg",
     "static/media/mint-Hueristic Evaluation.pdf": "/Portfolio/static/media/mint-Hueristic Evaluation.a39214e439d6cb039090.pdf",
     "static/media/freemanGIF2.gif": "/Portfolio/static/media/freemanGIF2.e053d67319cbcf89d6d0.gif",
     "static/media/portfolio-gif1.gif": "/Portfolio/static/media/portfolio-gif1.70363f4660613c7cd1c5.gif",
     "static/media/graphic2.png": "/Portfolio/static/media/graphic2.b49dc53aee25fb2810d6.png",
-    "static/media/audio-player.jpg": "/Portfolio/static/media/audio-player.0bce9bc3d0f5dd198406.jpg",
     "static/media/freemanGIF5.gif": "/Portfolio/static/media/freemanGIF5.424672daf735d32e9f7a.gif",
     "static/media/Yu-Wei Wu_Resume 2024.pdf": "/Portfolio/static/media/Yu-Wei Wu_Resume 2024.d6351d182842d988d47d.pdf",
     "static/media/freemanGIF3.gif": "/Portfolio/static/media/freemanGIF3.49c6f5b968c47fdfd874.gif",
@@ -18,7 +17,11 @@
     "static/media/portfolio-gif2.gif": "/Portfolio/static/media/portfolio-gif2.380b34b2ab6b48975865.gif",
     "static/media/freemanGIF1.gif": "/Portfolio/static/media/freemanGIF1.4ddc69e2a7586b8ef8c5.gif",
     "static/media/freeman1.png": "/Portfolio/static/media/freeman1.da433e07e7c7d541e003.png",
+    "static/media/audio-player.jpg": "/Portfolio/static/media/audio-player.3e6470b4765980a8897c.jpg",
+    "static/media/freeman2.png": "/Portfolio/static/media/freeman2.2f56a592b09cd52202d3.png",
     "static/media/graphic4.png": "/Portfolio/static/media/graphic4.5f46f75f69134669c6ee.png",
+    "static/media/freeman3.png": "/Portfolio/static/media/freeman3.616bfa7eda9b0adacd61.png",
+    "static/media/freeman4.png": "/Portfolio/static/media/freeman4.e2c526f862dcc0f852ef.png",
     "static/media/data1.png": "/Portfolio/static/media/data1.0c4ae67374898dbdbac6.png",
     "static/media/mint.png": "/Portfolio/static/media/mint.aa753133f063e265976b.png",
     "static/media/graphic3.png": "/Portfolio/static/media/graphic3.75c7ecad6948f6304be3.png",
@@ -26,11 +29,11 @@
     "static/media/Python.png": "/Portfolio/static/media/Python.9a80333700ff8f86688b.png",
     "static/media/C.png": "/Portfolio/static/media/C.d4414532785b3bf68f8a.png",
     "index.html": "/Portfolio/index.html",
-    "main.cc6f51d8.css.map": "/Portfolio/static/css/main.cc6f51d8.css.map",
-    "main.ab6ee477.js.map": "/Portfolio/static/js/main.ab6ee477.js.map"
+    "main.2f3fc4a5.css.map": "/Portfolio/static/css/main.2f3fc4a5.css.map",
+    "main.a6f5f59c.js.map": "/Portfolio/static/js/main.a6f5f59c.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc6f51d8.css",
-    "static/js/main.ab6ee477.js"
+    "static/css/main.2f3fc4a5.css",
+    "static/js/main.a6f5f59c.js"
   ]
 }
