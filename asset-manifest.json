@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.2f3fc4a5.css",
-    "main.js": "/Portfolio/static/js/main.a6f5f59c.js",
+    "main.css": "/Portfolio/static/css/main.a75d5630.css",
+    "main.js": "/Portfolio/static/js/main.a17a8233.js",
     "static/media/AboutMeBg.jpg": "/Portfolio/static/media/AboutMeBg.7623a0ae143f84cd7c7e.jpg",
     "static/media/mint-Hueristic Evaluation.pdf": "/Portfolio/static/media/mint-Hueristic Evaluation.a39214e439d6cb039090.pdf",
     "static/media/freemanGIF2.gif": "/Portfolio/static/media/freemanGIF2.e053d67319cbcf89d6d0.gif",
     "static/media/portfolio-gif1.gif": "/Portfolio/static/media/portfolio-gif1.70363f4660613c7cd1c5.gif",
+    "static/media/graphic.pdf": "/Portfolio/static/media/graphic.875bd04d7bb55787453c.pdf",
     "static/media/graphic2.png": "/Portfolio/static/media/graphic2.b49dc53aee25fb2810d6.png",
     "static/media/freemanGIF5.gif": "/Portfolio/static/media/freemanGIF5.424672daf735d32e9f7a.gif",
     "static/media/Yu-Wei Wu_Resume 2024.pdf": "/Portfolio/static/media/Yu-Wei Wu_Resume 2024.d6351d182842d988d47d.pdf",
@@ -29,11 +30,11 @@
     "static/media/Python.png": "/Portfolio/static/media/Python.9a80333700ff8f86688b.png",
     "static/media/C.png": "/Portfolio/static/media/C.d4414532785b3bf68f8a.png",
     "index.html": "/Portfolio/index.html",
-    "main.2f3fc4a5.css.map": "/Portfolio/static/css/main.2f3fc4a5.css.map",
-    "main.a6f5f59c.js.map": "/Portfolio/static/js/main.a6f5f59c.js.map"
+    "main.a75d5630.css.map": "/Portfolio/static/css/main.a75d5630.css.map",
+    "main.a17a8233.js.map": "/Portfolio/static/js/main.a17a8233.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f3fc4a5.css",
-    "static/js/main.a6f5f59c.js"
+    "static/css/main.a75d5630.css",
+    "static/js/main.a17a8233.js"
   ]
 }
