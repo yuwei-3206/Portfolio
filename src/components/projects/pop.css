@@ -107,6 +107,7 @@
 .pop_link {
     color: var(--color-dark);
     border-bottom: 1.5px solid var(--color-primary);
+    cursor: pointer;
 }
   
 .pop_close {

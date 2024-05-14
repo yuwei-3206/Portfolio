@@ -26,14 +26,31 @@
 }
 
 .social_links_about {
+    display: flex;
     gap: 1.5rem;
     align-items: center;
-  }
+}
+
+.reseme_about{
+    font-size: small;
+    margin-left: -2.5%;
+    margin-bottom: 1%;
+    border-bottom: 1.5px solid var(--color-secondary);
+    cursor: pointer;
+}
+
+.reseme_about:hover {
+    color: var(--color-primary);
+}
 
 /* ----- For Tablets - Medium Devices ----- */
 @media screen and (max-width: 1040px) {
     .about_description {
         font-size: 15px;
+    }
+
+    .reseme_about{
+        margin-left: -4.5%;
     }
 }
   
@@ -68,9 +85,14 @@
         font-size: 14px;
         margin: 2rem 0;
     }
+    .reseme_about{
+        margin-left: -5%;
+    }
 }
   
 /* ----- For mobiles - Small Devices ----- */
  @media screen and (max-width: 400px) {
-
+    .reseme_about{
+        margin-left: -5%;
+    }
 }

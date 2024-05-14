@@ -1,11 +1,16 @@
 import React from "react";
 import CV from "../../assets/Yu-Wei Wu_Resume 2024.pdf"
+import Graphic from "../../assets/graphic/graphic.pdf"
+
+const openCV = () => {
+  window.open(CV, '_blank');
+};
+const openGraphic = () => {
+  window.open(Graphic, '_blank');
+};
+
 
 const Calltoaction = () => {
-  const openCV = () => {
-    window.open(CV, '_blank');
-  };
-  
   return (
     <div className="header_btns">
       <div className="btn primaryBtn" onClick={openCV}>Resume</div>
@@ -15,3 +20,4 @@ const Calltoaction = () => {
 };
 
 export default Calltoaction;
+export { openCV, openGraphic };

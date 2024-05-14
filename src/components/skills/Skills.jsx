@@ -1,11 +1,11 @@
 import React from "react";
 import "./skills.css";
-import ScrollEffect from "../../ScrollEffect";
+//import ScrollEffect from "../../ScrollEffect";
 import SkillsDisplay from "./SkillsDisplay";
 
 const Skill = () => {
 
-  const scrollPosition = ScrollEffect();
+  /*const scrollPosition = ScrollEffect();
 
   let translateY = scrollPosition / 2.5;
 
@@ -13,7 +13,7 @@ const Skill = () => {
     translateY = scrollPosition / 5;
   } else if (window.innerWidth <= 600) {
     translateY = scrollPosition / 50;
-  }
+  }*/
 
   const designSkillsData = [
     { skill: "Photoshop"},
@@ -42,7 +42,7 @@ const Skill = () => {
 
   return (
     <section id="skills" className="skill" 
-      style={{ backgroundColor: "white", marginTop: `-${translateY}px` }}>
+      /*style={{ backgroundColor: "white", marginTop: `-${translateY}px` }}*/>
       <h5>SKILLS</h5>
       <h2>What I can do</h2>
       

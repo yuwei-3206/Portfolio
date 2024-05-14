@@ -20,6 +20,7 @@ import graphic1 from '../../assets/graphic/graphic1.png';
 import graphic2 from '../../assets/graphic/graphic2.png';
 import graphic3 from '../../assets/graphic/graphic3.png';
 import graphic4 from '../../assets/graphic/graphic4.png';
+import { openGraphic } from '../header/Calltoaction'
 
 const ProjectList = [
     {
@@ -149,7 +150,8 @@ const ProjectList = [
         "Adobe Illustrator, Photoshop, InDesign",
       description: (
         <div>
-          Designed various materials like web pages, banners, flyers, logos, signs, annual reports, ads, and product packagings. <br />
+          Designed various materials like web pages, banners, flyers, logos, signs, annual reports, ads, and product packagings. <br /><br />
+          <a className="pop_link" href="" onClick={openGraphic} target="_blank" rel="noopener noreferrer">View more</a>
         </div>),
     }
   ];
