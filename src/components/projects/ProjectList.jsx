@@ -3,6 +3,14 @@ import portfolio2 from '../../assets/portfolio/portfolio-gif1.gif';
 import portfolio3 from '../../assets/portfolio/portfolio-gif2.gif';
 import portfolio4 from '../../assets/portfolio/portfolio-gif3.gif';
 import audioplayer1 from '../../assets/audio-player/audio-player.jpg';
+import caudate1 from '../../assets/caudate/1.png';
+import caudate2 from '../../assets/caudate/2.jpg';
+import caudate3 from '../../assets/caudate/3.jpg';
+import caudate4 from '../../assets/caudate/4.jpg';
+import caudate5 from '../../assets/caudate/5.jpg';
+import caudate6 from '../../assets/caudate/6.jpg';
+import caudate7 from '../../assets/caudate/7.jpg';
+import caudate8 from '../../assets/caudate/8.jpg';
 import python from '../../assets/Python.png'
 import data from '../../assets/data1.png';
 import c from '../../assets/C.png'
@@ -47,7 +55,7 @@ const ProjectList = [
       name: "Audio Player",
       tool: (
         <div>
-          HTML, CSS, JavaScript, JSON<br />
+          HTML, CSS, JavaScript<br />
           Framework: React
         </div>),
       description: (
@@ -62,24 +70,44 @@ const ProjectList = [
     },
     {
       id: 3,
-      images: [python],
-      name: "Travel Management Application",
+      images: [caudate1, caudate2, caudate3, caudate4, caudate5, caudate6, caudate7, caudate8],
+      name: "Caudate Game App",
       tool: (
         <div>
-          JavaScript, Python, API<br />
-          Framework: React, Flask
+          JavaScript, Node JS<br />
+          Framework: React Native, Express.js<br />
         </div>),
       description: (
         <div>
-          The Travel Management Application helps users plan and organize their trips efficiently. Developed using Python and the Flask framework for the backend, along with React for the frontend, this application ensures a smooth and intuitive user experience from registration to travel plan management.<br /><br />
-          1. Analyzed research data and developed the client-side application using React.<br /><br />
-          2. Developed with Python and Flask, managed backend tasks like routing, request handling, and database management.<br /><br />
-          3. Implemented user authentication and authorization mechanisms to secure sensitive user data.<br /><br />
-          <a className="pop_link" href={"https://github.com/yuwei-3206/Travel-Management"} target="_blank" rel="noopener noreferrer">View code on Github</a>
+          This app is designed to improve concentration and focus through a game involving "Schulte Tables," used in psychoanalysis to study attention. Users select numbered grid items in order as quickly as possible across three levels.<br /><br />
+          The app's backend allows users to share scores via a MongoDB database, with leaderboards for each level included in the initial release.<br /><br />
+          <a className="pop_link" href={"https://github.com/yuwei-3206/Caudate"} target="_blank" rel="noopener noreferrer">View code on Github</a><br /><br />
+          1. Implemented user authentication and token management with AsyncStorage for secure local data handling.<br /><br />
+          2. Designed and integrated RESTful APIs in Node.js and Express for efficient data management.<br /><br />
+          3. Integrated MongoDB for robust backend data management and real-time updates, ensuring scalable performance.<br /><br />
+          4. Customized app theme colors using React Native Paper for enhanced user experience across light and dark modes.<br /><br />
         </div>)
     },
     {
       id: 4,
+      images: [python],
+      name: "Travel Management",
+      tool: (
+        <div>
+          JavaScript, Python<br />
+          Framework: React Native, Flask
+        </div>),
+      description: (
+        <div>
+          The Travel Management Application helps users plan and organize their trips efficiently. Developed using Python and the Flask framework for the backend, along with React for the frontend, this application ensures a smooth and intuitive user experience from registration to travel plan management.<br /><br />
+          1. Analyzed research data and developed the client-side application using React Native.<br /><br />
+          2. Developed with Python and Flask, managed backend tasks like routing, request handling, and database management.<br /><br />
+          3. Implemented user authentication and authorization mechanisms to secure sensitive user data.<br /><br />
+          <a className="pop_link" href={"https://github.com/yuwei-3206/Travel-mng"} target="_blank" rel="noopener noreferrer">View code on Github</a>
+        </div>)
+    },
+    {
+      id: 5,
       images: [data],
       name: "Database Normalization",
       tool: (
@@ -97,7 +125,7 @@ const ProjectList = [
       
     },
     {
-      id: 5,
+      id: 6,
       images: [c],
       name: "C Programs",
       tool:
@@ -114,7 +142,7 @@ const ProjectList = [
         </div>),
     },
     {
-      id: 6,
+      id: 7,
       images: [mint],
       name: "Mint Mobile - UX Research",
       tool:
@@ -128,11 +156,11 @@ const ProjectList = [
         </div>),
     },
     {
-      id: 7,
+      id: 8,
       images: [freeman1, freeman2, freeman3, freeman4, freeman5, freeman6, freeman7, freeman8, freeman9],
       name: "Freeman Beauty - UX Research/Design",
       tool:
-        "Figma, Prototyping User Research, Visual Design, ",
+        "Figma, Prototyping User Research, Visual Design ",
       description: (
         <div>
           This is an academic project.<br/><br/>
@@ -143,7 +171,7 @@ const ProjectList = [
         </div>),
     },
     {
-      id: 8,
+      id: 9,
       images: [graphic1, graphic2, graphic3, graphic4],
       name: "Graphic Design",
       tool:

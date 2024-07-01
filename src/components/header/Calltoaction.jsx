@@ -1,5 +1,5 @@
 import React from "react";
-import CV from "../../assets/Yu-Wei Wu_Resume 2024.pdf"
+import CV from "../../assets/Yu-Wei Wu_Resume-2024.pdf"
 import Graphic from "../../assets/graphic/graphic.pdf"
 
 const openCV = () => {

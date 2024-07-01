@@ -19,8 +19,8 @@
     position: relative;
     width: 20rem;
     height: 30rem;
-    margin-bottom: 3rem;
-    gap: 2rem;
+    margin-bottom: 2rem;
+    gap: 3rem;
     padding: 2rem 2rem;
     box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05), 3px 3px 15px rgba(0, 0, 0, 0.1);
     transition: all 100ms ease-in-out;
@@ -29,7 +29,7 @@
   .builder_container:hover {
     max-width: 20.1rem;
     height: 30.1rem;
-    margin-bottom: 2.9rem;
+    margin-bottom: 1.9rem;
     box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05), 3px 3px 15px rgba(0, 0, 0, 0.2);
     transition: all 100ms ease-in-out;
   }
@@ -39,6 +39,7 @@
     bottom: 11rem;
     font-size: 150%;
     font-weight: 600;
+    padding-right: 2rem;
   }
 
   .project_image {
@@ -49,7 +50,7 @@
   .project_tool {
     position: absolute;
     padding-right: 2rem;
-    bottom: 7rem;
+    bottom: 6rem;
   }
 
   button {
@@ -67,10 +68,25 @@
     font-size: 120%;
     font-weight: 600;
     padding-right: 1rem;
+    bottom: 11.5rem;
   }
 
   .project_tool {
     font-size: 15px;
+  }
+
+  .builder_container {
+
+    width: 20rem;
+    height: 30rem;
+    margin-bottom: 1rem;
+    gap: 2rem;
+  }
+
+  .builder_container:hover {
+    max-width: 20.1rem;
+    height: 30.1rem;
+    margin-bottom: 0.9rem;
   }
 }
 

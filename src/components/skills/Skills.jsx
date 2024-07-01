@@ -26,6 +26,7 @@ const Skill = () => {
   const frontEndSkillsData = [
     { skill: "HTML/CSS"},
     { skill: "JavaScript"},
+    { skill: "TypeScript"},
     { skill: "React.js"},
     { skill: "React Native"},
   ];
@@ -34,10 +35,10 @@ const Skill = () => {
     { skill: "Python"},
     { skill: "Java"},
     { skill: "C/C++"},
-    { skill: "Node.js"},
+    { skill: "Node JS"},
     { skill: "RESTful API"},
     { skill: "PL/SQL"},
-    { skill: "R"},
+    { skill: "Mongo DB"},
   ];
 
   return (
