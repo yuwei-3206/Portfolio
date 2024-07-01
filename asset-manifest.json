@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.a75d5630.css",
-    "main.js": "/Portfolio/static/js/main.a17a8233.js",
+    "main.css": "/Portfolio/static/css/main.6846b5c4.css",
+    "main.js": "/Portfolio/static/js/main.0f6886d1.js",
     "static/media/AboutMeBg.jpg": "/Portfolio/static/media/AboutMeBg.7623a0ae143f84cd7c7e.jpg",
     "static/media/mint-Hueristic Evaluation.pdf": "/Portfolio/static/media/mint-Hueristic Evaluation.a39214e439d6cb039090.pdf",
     "static/media/freemanGIF2.gif": "/Portfolio/static/media/freemanGIF2.e053d67319cbcf89d6d0.gif",
@@ -9,7 +9,7 @@
     "static/media/graphic.pdf": "/Portfolio/static/media/graphic.875bd04d7bb55787453c.pdf",
     "static/media/graphic2.png": "/Portfolio/static/media/graphic2.b49dc53aee25fb2810d6.png",
     "static/media/freemanGIF5.gif": "/Portfolio/static/media/freemanGIF5.424672daf735d32e9f7a.gif",
-    "static/media/Yu-Wei Wu_Resume 2024.pdf": "/Portfolio/static/media/Yu-Wei Wu_Resume 2024.d6351d182842d988d47d.pdf",
+    "static/media/Yu-Wei Wu_Resume-2024.pdf": "/Portfolio/static/media/Yu-Wei Wu_Resume-2024.3ec1019aba0c364f3986.pdf",
     "static/media/freemanGIF3.gif": "/Portfolio/static/media/freemanGIF3.49c6f5b968c47fdfd874.gif",
     "static/media/freemanGIF4.gif": "/Portfolio/static/media/freemanGIF4.413c8dfd26e4efab2803.gif",
     "static/media/Freeman-Product Doc.pdf": "/Portfolio/static/media/Freeman-Product Doc.b1787932a5f496abec1f.pdf",
@@ -24,17 +24,25 @@
     "static/media/freeman3.png": "/Portfolio/static/media/freeman3.616bfa7eda9b0adacd61.png",
     "static/media/freeman4.png": "/Portfolio/static/media/freeman4.e2c526f862dcc0f852ef.png",
     "static/media/data1.png": "/Portfolio/static/media/data1.0c4ae67374898dbdbac6.png",
+    "static/media/6.jpg": "/Portfolio/static/media/6.e27e76a1a07e92bf3a45.jpg",
+    "static/media/5.jpg": "/Portfolio/static/media/5.48dd3cfd78a8e9b0a669.jpg",
     "static/media/mint.png": "/Portfolio/static/media/mint.aa753133f063e265976b.png",
     "static/media/graphic3.png": "/Portfolio/static/media/graphic3.75c7ecad6948f6304be3.png",
+    "static/media/3.jpg": "/Portfolio/static/media/3.9f80074ecc61a19b6350.jpg",
+    "static/media/8.jpg": "/Portfolio/static/media/8.48ede6f0ea9847c4e5fc.jpg",
+    "static/media/4.jpg": "/Portfolio/static/media/4.991a8f379fb9a1b7b39b.jpg",
+    "static/media/7.jpg": "/Portfolio/static/media/7.9e4a6189236965b7a795.jpg",
+    "static/media/2.jpg": "/Portfolio/static/media/2.b6d2d271562fb996c0e5.jpg",
+    "static/media/1.png": "/Portfolio/static/media/1.7e26b5d524a3654fc740.png",
     "static/media/portfolio.png": "/Portfolio/static/media/portfolio.63411ed57131d9bbaa3e.png",
     "static/media/Python.png": "/Portfolio/static/media/Python.9a80333700ff8f86688b.png",
     "static/media/C.png": "/Portfolio/static/media/C.d4414532785b3bf68f8a.png",
     "index.html": "/Portfolio/index.html",
-    "main.a75d5630.css.map": "/Portfolio/static/css/main.a75d5630.css.map",
-    "main.a17a8233.js.map": "/Portfolio/static/js/main.a17a8233.js.map"
+    "main.6846b5c4.css.map": "/Portfolio/static/css/main.6846b5c4.css.map",
+    "main.0f6886d1.js.map": "/Portfolio/static/js/main.0f6886d1.js.map"
   },
   "entrypoints": [
-    "static/css/main.a75d5630.css",
-    "static/js/main.a17a8233.js"
+    "static/css/main.6846b5c4.css",
+    "static/js/main.0f6886d1.js"
   ]
 }
