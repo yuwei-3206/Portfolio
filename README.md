@@ -20,4 +20,6 @@ I used CSS for styling the portfolio, including custom fonts, color schemes, and
 
 ## Screenshots
 ![portfolio-gif1](https://github.com/yuwei-3206/Portfolio/assets/122844465/e71b379c-23f2-4279-84b1-d3befac12e81)
-![portfolio-gif2](https://github.com/yuwei-3206/Portfolio/assets/122844465/16666da3-7060-4589-bec4-8b316e49eab2)
+![1720026636358](https://github.com/yuwei-3206/Portfolio/assets/122844465/0eb409a2-749c-4869-ab92-7d9b4c2eccb1)
+![1720026717927](https://github.com/yuwei-3206/Portfolio/assets/122844465/55f29928-d743-4fdd-a5cb-8ea88aff2e90)
+
