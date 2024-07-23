@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.6846b5c4.css",
-    "main.js": "/Portfolio/static/js/main.0f6886d1.js",
+    "main.js": "/Portfolio/static/js/main.7fd27cce.js",
     "static/media/AboutMeBg.jpg": "/Portfolio/static/media/AboutMeBg.7623a0ae143f84cd7c7e.jpg",
     "static/media/mint-Hueristic Evaluation.pdf": "/Portfolio/static/media/mint-Hueristic Evaluation.a39214e439d6cb039090.pdf",
     "static/media/freemanGIF2.gif": "/Portfolio/static/media/freemanGIF2.e053d67319cbcf89d6d0.gif",
@@ -9,7 +9,7 @@
     "static/media/graphic.pdf": "/Portfolio/static/media/graphic.875bd04d7bb55787453c.pdf",
     "static/media/graphic2.png": "/Portfolio/static/media/graphic2.b49dc53aee25fb2810d6.png",
     "static/media/freemanGIF5.gif": "/Portfolio/static/media/freemanGIF5.424672daf735d32e9f7a.gif",
-    "static/media/Yu-Wei Wu_Resume-2024.pdf": "/Portfolio/static/media/Yu-Wei Wu_Resume-2024.3ec1019aba0c364f3986.pdf",
+    "static/media/Yu-Wei Wu_Resume-2024.pdf": "/Portfolio/static/media/Yu-Wei Wu_Resume-2024.2c71bcd9f7bea2028b70.pdf",
     "static/media/freemanGIF3.gif": "/Portfolio/static/media/freemanGIF3.49c6f5b968c47fdfd874.gif",
     "static/media/freemanGIF4.gif": "/Portfolio/static/media/freemanGIF4.413c8dfd26e4efab2803.gif",
     "static/media/Freeman-Product Doc.pdf": "/Portfolio/static/media/Freeman-Product Doc.b1787932a5f496abec1f.pdf",
@@ -39,10 +39,10 @@
     "static/media/C.png": "/Portfolio/static/media/C.d4414532785b3bf68f8a.png",
     "index.html": "/Portfolio/index.html",
     "main.6846b5c4.css.map": "/Portfolio/static/css/main.6846b5c4.css.map",
-    "main.0f6886d1.js.map": "/Portfolio/static/js/main.0f6886d1.js.map"
+    "main.7fd27cce.js.map": "/Portfolio/static/js/main.7fd27cce.js.map"
   },
   "entrypoints": [
     "static/css/main.6846b5c4.css",
-    "static/js/main.0f6886d1.js"
+    "static/js/main.7fd27cce.js"
   ]
 }
